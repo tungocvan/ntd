@@ -13,7 +13,7 @@
     @else
         <link rel="icon" href="/favicon.ico" />
     @endif
-    <title>@yield('title', 'HOMEPAGE')</title>
+    <title>@yield('title', 'TRƯỜNG TIỂU HỌC NGUYỄN THỊ ĐỊNH')</title>
     {!! Setting::getValue('header_script') !!}
     @yield('css')
     <script>

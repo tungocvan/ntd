@@ -61,7 +61,7 @@ class Sidebar extends Component
         // ======================
         'border'            => 'border-slate-200',
     ];
-  
+
     // ======================
     // MOUNT
     // ======================
@@ -69,7 +69,7 @@ class Sidebar extends Component
     {
         $this->menus = $service->getMenus();
 
-        $this->titleSidebar = Setting::getValue('title_sidebar') ?? 'Admin';
+        $this->titleSidebar = Setting::getValue('title_sidebar') ;
         // $config = File::getRequire(
         //     base_path('Modules/Admin/config/sidebar.php')
         // );

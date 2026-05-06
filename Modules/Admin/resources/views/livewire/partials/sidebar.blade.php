@@ -6,15 +6,35 @@
 
     {{-- HEADER --}}
     <div class="h-16 flex items-center justify-center border-b {{ $theme['border'] }}">
-        <span x-show="sidebarOpen" class="font-semibold">{{ $titleSidebar }}</span>
-        <span x-show="!sidebarOpen">A</span>
+
+        {{-- FULL TITLE --}}
+        <span x-show="sidebarOpen" class="text-sm font-bold uppercase text-center leading-tight {{ $theme['text'] }}">
+
+            <span class="block tracking-wide">
+                TRƯỜNG TIỂU HỌC
+            </span>
+
+            <span class="block tracking-widest text-indigo-500">
+                NGUYỄN THỊ ĐỊNH
+            </span>
+
+        </span>
+
+        {{-- COLLAPSED --}}
+        <span x-show="!sidebarOpen"
+            class="text-lg font-extrabold tracking-widest
+               text-indigo-100
+               bg-gradient-to-br from-indigo-500 to-indigo-600
+               px-2 py-1 rounded-lg shadow-md">
+            NTĐ
+        </span>
+
     </div>
 
     {{-- MENU --}}
     <nav class="flex-1 overflow-y-auto py-4 px-3 space-y-1">
 
         @foreach ($menus as $menu)
-
             {{-- =========================
                 ✅ FILTER PERMISSION ROOT
             ========================== --}}
@@ -31,7 +51,7 @@
             @endphp
 
             {{-- ❌ Không có quyền + không có children hợp lệ --}}
-            @if(!$canAccessMenu && !$hasChildren)
+            @if (!$canAccessMenu && !$hasChildren)
                 @continue
             @endif
 
@@ -65,10 +85,9 @@
                 ✅ SINGLE MENU
             ========================== --}}
             @if (!$hasChildren && $canAccessMenu)
-
                 <a href="{{ !empty($menu['url']) ? url($menu['url']) : '#' }}"
-                   class="flex items-center px-3 py-2 rounded-lg transition
-                   {{ $isActive ? $theme['active_bg'].' '.$theme['active_text'] : $theme['hover'] }}">
+                    class="flex items-center px-3 py-2 rounded-lg transition
+                   {{ $isActive ? $theme['active_bg'] . ' ' . $theme['active_text'] : $theme['hover'] }}">
 
                     @if (!empty($menu['icon']))
                         <x-icon name="{{ $menu['icon'] }}"
@@ -81,16 +100,15 @@
                     </span>
                 </a>
 
-            {{-- =========================
+                {{-- =========================
                 ✅ GROUP MENU
             ========================== --}}
             @elseif ($hasChildren)
-
                 <div x-data="{ open: {{ $isActive ? 'true' : 'false' }} }">
 
                     <button @click="sidebarOpen ? open = !open : sidebarOpen = true"
                         class="w-full flex items-center justify-between px-3 py-2 rounded-lg transition
-                        {{ $isActive ? $theme['active_bg'].' '.$theme['active_text'] : $theme['hover'] }}">
+                        {{ $isActive ? $theme['active_bg'] . ' ' . $theme['active_text'] : $theme['hover'] }}">
 
                         <div class="flex items-center">
 
@@ -105,11 +123,8 @@
                             </span>
                         </div>
 
-                        <svg x-show="sidebarOpen"
-                            :class="open ? 'rotate-90' : ''"
-                            class="w-4 h-4 transition-transform duration-200"
-                            fill="currentColor"
-                            viewBox="0 0 20 20">
+                        <svg x-show="sidebarOpen" :class="open ? 'rotate-90' : ''"
+                            class="w-4 h-4 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M6 6L14 10L6 14V6Z" />
                         </svg>
                     </button>
@@ -118,16 +133,15 @@
                     <div x-show="open && sidebarOpen" x-collapse class="ml-6 mt-1 space-y-1">
 
                         @foreach ($children as $child)
-
                             @php
                                 $childActive = request()->is(ltrim($child['url'], '/') . '*');
                             @endphp
 
                             <a href="{{ url($child['url']) }}"
-                               class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition
+                                class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition
                                {{ $childActive
-                                    ? $theme['child_active_bg'].' '.$theme['child_active_text']
-                                    : $theme['child_text'].' '.$theme['child_hover'] }}">
+                                   ? $theme['child_active_bg'] . ' ' . $theme['child_active_text']
+                                   : $theme['child_text'] . ' ' . $theme['child_hover'] }}">
 
                                 <svg class="w-3.5 h-3.5 opacity-70" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M6 6L14 10L6 14V6Z" />
@@ -135,15 +149,12 @@
 
                                 <span>{{ $child['name'] }}</span>
                             </a>
-
                         @endforeach
 
                     </div>
 
                 </div>
-
             @endif
-
         @endforeach
 
     </nav>
@@ -152,7 +163,8 @@
     <div class="border-t border-gray-800 p-4 transition-all duration-300">
         <div class="flex items-center" :class="!sidebarOpen ? 'justify-center' : ''">
 
-            <div class="h-8 w-8 rounded-full bg-indigo-500 flex items-center justify-center text-white font-bold text-xs">
+            <div
+                class="h-8 w-8 rounded-full bg-indigo-500 flex items-center justify-center text-white font-bold text-xs">
                 {{ substr(auth()->user()->name ?? 'A', 0, 1) }}
             </div>
 

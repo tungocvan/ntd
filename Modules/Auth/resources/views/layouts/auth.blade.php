@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@yield('title', 'HOMEPAGE')</title>
+    <title>@yield('title', 'TRƯỜNG TIỂU HỌC NGUYỄN THỊ ĐỊNH')</title>
     @yield('css')
     @vite(['resources/css/tailwind.css', 'resources/js/tailwind.js'])
     @stack('styles')
