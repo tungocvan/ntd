@@ -42,7 +42,8 @@
         <input wire:model="form.NguoiLamDon" class="w-full rounded-xl border border-gray-300 px-4 py-3">
     </div>
     {{-- Sắp xếp lớp --}}
-    @if ($form['Status'] === 'approved')   
+    @can('create_admission')
+    @if ($form['Status'] === 'approved')
     <h2 class="text-xl font-semibold text-gray-800">
         Sắp xếp vào lớp
     </h2>
@@ -61,5 +62,5 @@
         </div>
     </div>
     @endif
-
+    @endcan
 </div>

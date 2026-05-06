@@ -17,7 +17,7 @@ class AdmissionService
     public function createRegistration(array $formData)
     {
         // Tạo mã hồ sơ tự động
-        $mhs = 'MHS' . date('Y') . str_pad(AdmissionApplication::count() + 1, 4, '0', STR_PAD_LEFT);
+        $mhs = 'NTD' . date('Y') . str_pad(AdmissionApplication::count() + 1, 4, '0', STR_PAD_LEFT);
 
         // Chuẩn hóa dữ liệu trước khi lưu
         $data = $this->prepareData($formData);
