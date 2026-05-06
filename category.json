@@ -1,0 +1,2938 @@
+{
+    "status": "OK",
+    "data": [
+        {
+            "code": "ALL_PRODUCT",
+            "iconActiveUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/20250ce46c2ec9f3b298dbe5d04932b0tatcasanpham_active.svg",
+            "iconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/202506789dbb6648c471cb21a9ed304dtatcasp.svg",
+            "isActive": true,
+            "label": "Tất Cả Sản Phẩm",
+            "url": "https://thuocsi.vn/products"
+        },
+        {
+            "categories": [
+                {
+                    "categoryID": 233,
+                    "code": "KLXHR2AXHR",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "KLXHR2AXHR",
+                            "categoryID": 233,
+                            "code": "7961PG",
+                            "description": null,
+                            "efficacyID": 139,
+                            "isActive": true,
+                            "name": "Giun, sán",
+                            "slug": "aqfv2u-giun-san-xt2u1y"
+                        },
+                        {
+                            "categoryCode": "KLXHR2AXHR",
+                            "categoryID": 233,
+                            "code": "KFW961",
+                            "description": "",
+                            "efficacyID": 117,
+                            "isActive": true,
+                            "name": "Kháng virus",
+                            "slug": "aqfv2u-khang-virus-lalt0t",
+                            "subCategoryCodes": [
+                                "4B2AXHR2AX",
+                                "KLXHR2AXHR"
+                            ]
+                        },
+                        {
+                            "categoryCode": "KLXHR2AXHR",
+                            "categoryID": 233,
+                            "code": "HPGEQ1",
+                            "description": null,
+                            "efficacyID": 115,
+                            "isActive": true,
+                            "name": "Kháng sinh",
+                            "slug": "aqfv2u-khang-sinh-lalt0t"
+                        },
+                        {
+                            "categoryCode": "KLXHR2AXHR",
+                            "categoryID": 233,
+                            "code": "9HR2AX",
+                            "description": null,
+                            "efficacyID": 114,
+                            "isActive": true,
+                            "name": "Kháng nấm",
+                            "slug": "aqfv2u-khang-nam-lalt0t"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202577a9edddcc6df2bf8f210c31a8f6Category=10.Kháng_vi_sinh.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20258e1c24d17f7686d93472e53e747c1127079_1.svg",
+                    "isActive": true,
+                    "name": "Kháng vi sinh vật",
+                    "priority": 9,
+                    "slug": "khang-sinh-nam-virus-ki-sinh-trung",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 226,
+                    "code": "1XAXHR2AXH",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "1XAXHR2AXH",
+                            "code": "QJYJYJ",
+                            "description": "",
+                            "efficacyID": 231,
+                            "name": "Kháng viêm dạng men",
+                            "slug": "khang-viem-dang-men",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "1XAXHR2AXH",
+                            "categoryID": 274,
+                            "code": "44FW96",
+                            "description": "",
+                            "efficacyID": 110,
+                            "isActive": true,
+                            "name": "Giảm đau, hạ sốt",
+                            "slug": "aqfv2u-giam-dau-ha-sot-nsaids-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "1XAXHR2AXH",
+                            "categoryID": 226,
+                            "code": "R4FW96",
+                            "description": null,
+                            "efficacyID": 45,
+                            "isActive": true,
+                            "name": "Kháng viêm non-steroid",
+                            "slug": "p3abcl-ho-tro-khang-viem"
+                        },
+                        {
+                            "categoryCode": "1XAXHR2AXH",
+                            "categoryID": 226,
+                            "code": "EW961P",
+                            "description": null,
+                            "efficacyID": 44,
+                            "isActive": true,
+                            "name": "Kháng viêm corticoid",
+                            "slug": "p3abcl-ho-tro-giam-dau-ha-sot"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20254693f40b70e5da38a00639ef4e9aCategory=9.Giảm_đau_hạ_sốt.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025d8ff3654ff8fde6135200cebaf4d2419_1.svg",
+                    "isActive": true,
+                    "name": "Giảm đau, hạ sốt, kháng viêm",
+                    "priority": 8,
+                    "slug": "tai-mui-hong-ho-hap",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 231,
+                    "code": "D4BCV84FW9",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "D4BCV84FW9",
+                            "code": "J4FW96",
+                            "description": "",
+                            "efficacyID": 251,
+                            "name": "Điều trị suy giãn tĩnh mạch",
+                            "slug": "dieu-tri-suy-gian-t-nh-mach",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "D4BCV84FW9",
+                            "categoryID": 231,
+                            "code": "THR2AX",
+                            "description": null,
+                            "efficacyID": 127,
+                            "isActive": true,
+                            "name": "Tim",
+                            "slug": "aqfv2u-tim-mach-huyet-ap-lalt0t"
+                        },
+                        {
+                            "categoryCode": "D4BCV84FW9",
+                            "categoryID": 242,
+                            "code": "WJYJYJ",
+                            "description": "",
+                            "efficacyID": 70,
+                            "isActive": true,
+                            "name": "Lipid máu",
+                            "slug": "drgbcl-may-va-dung-cu-do-nong-do-oxy-trong-mau",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "D4BCV84FW9",
+                            "categoryID": 231,
+                            "code": "LAXHR2",
+                            "description": null,
+                            "efficacyID": 37,
+                            "isActive": true,
+                            "name": "Huyết áp",
+                            "slug": "p3abcl-ho-tro-dieu-tri-tim-mach-huyet-ap"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025d493d9adfe2b938ca6041628b07dCategory=4.Tim_mạch.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025553b0d193cff3e8dc6f4d606e00f1584_1.svg",
+                    "isActive": true,
+                    "name": "Tim, mạch, huyết áp",
+                    "priority": 3,
+                    "slug": "tim-mach",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 235,
+                    "code": "JKLPGEQ1PG",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "JKLPGEQ1PG",
+                            "code": "VV84FW",
+                            "description": "",
+                            "efficacyID": 229,
+                            "name": "Tuyến giáp",
+                            "slug": "tuyen-giap",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "JKLPGEQ1PG",
+                            "categoryID": 235,
+                            "code": "ET61PG",
+                            "description": "",
+                            "efficacyID": 125,
+                            "isActive": true,
+                            "name": "Tiền liệt tuyến",
+                            "slug": "aqfv2u-tien-liet-hormon-nam-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "JKLPGEQ1PG",
+                            "categoryID": 235,
+                            "code": "WLPGEQ",
+                            "description": "",
+                            "efficacyID": 124,
+                            "isActive": true,
+                            "name": "Thận, tiết niệu",
+                            "slug": "aqfv2u-than-tiet-nieu-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "JKLPGEQ1PG",
+                            "categoryID": 235,
+                            "code": "784FW9",
+                            "description": null,
+                            "efficacyID": 112,
+                            "isActive": true,
+                            "name": "Hormon nữ, tránh thai",
+                            "slug": "aqfv2u-hormon-nu-tranh-thai-lalt0t"
+                        },
+                        {
+                            "categoryCode": "JKLPGEQ1PG",
+                            "categoryID": 223,
+                            "code": "YJYJYJ",
+                            "description": "",
+                            "efficacyID": 20,
+                            "isActive": true,
+                            "name": "Phụ khoa, nam khoa",
+                            "slug": "uaclt0-phu-khoanam-khoa",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202510183bb0b0d71ceb925e43ddacc3Category=15.Hoomon_sinh_lý.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20250dce00f8986da64b3257050516731421_1.svg",
+                    "isActive": true,
+                    "name": "Hormon, sinh lý",
+                    "priority": 15,
+                    "slug": "nhan-khoa",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 274,
+                    "code": "LXAXHR2AXH",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "LXAXHR2AXH",
+                            "code": "4HR2AX",
+                            "description": "",
+                            "efficacyID": 245,
+                            "name": "Mũi",
+                            "slug": "m-i",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "LXAXHR2AXH",
+                            "code": "172AXH",
+                            "description": "",
+                            "efficacyID": 243,
+                            "name": "Răng, miệng",
+                            "slug": "rang-mieng",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "LXAXHR2AXH",
+                            "categoryID": 274,
+                            "code": "672AXH",
+                            "description": null,
+                            "efficacyID": 111,
+                            "isActive": true,
+                            "name": "Hen, COPD, phổi",
+                            "slug": "aqfv2u-hen-copd-phoi-lalt0t"
+                        },
+                        {
+                            "categoryCode": "LXAXHR2AXH",
+                            "categoryID": 274,
+                            "code": "ACV84F",
+                            "description": "",
+                            "efficacyID": 50,
+                            "isActive": true,
+                            "name": "Tai",
+                            "slug": "p3abcl-ho-tro-tai-mui-hong",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "LXAXHR2AXH",
+                            "categoryID": 274,
+                            "code": "YKU72A",
+                            "description": null,
+                            "efficacyID": 47,
+                            "isActive": true,
+                            "name": "Ho, cảm cúm",
+                            "slug": "p3abcl-ho-tro-mat"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025efe8aea74e75bd99120c3b0ffa4fCategory=5.Tai_mũi_họng.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20259715ee97cfd1343b8ed4d562b8271715_1.svg",
+                    "isActive": true,
+                    "name": "Tai, mũi, họng",
+                    "priority": 4,
+                    "slug": "dung-cu-y-te",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10002,
+                    "code": "C8Q1",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "C8Q1",
+                            "code": "9XHR2A",
+                            "description": "",
+                            "efficacyID": 222,
+                            "name": "Thuốc đái tháo đường khác",
+                            "slug": "thuoc-dai-thao-duong-khac",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "C8Q1",
+                            "code": "8LPGEQ",
+                            "description": "",
+                            "efficacyID": 221,
+                            "name": "Insulin và dẫn xuất insulin",
+                            "slug": "insulin-va-dan-xuat-insulin",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20256bea1860391c22e47774ca5fa194Category=2.Đái_tháo_đường.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025874110c4c4867c1469a9ca523e311255_1.svg",
+                    "isActive": true,
+                    "name": "Đái tháo đường",
+                    "priority": 1,
+                    "slug": "dai-thao-duong",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10003,
+                    "code": "VD1P",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "VD1P",
+                            "code": "9CV84F",
+                            "description": "",
+                            "efficacyID": 249,
+                            "name": "Tiêu chảy, viêm ruột",
+                            "slug": "tieu-chay-viem-ruot",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "VD1P",
+                            "code": "8XHR2A",
+                            "description": "",
+                            "efficacyID": 248,
+                            "name": "Táo bón",
+                            "slug": "tao-bon",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "VD1P",
+                            "categoryID": 10003,
+                            "code": "R84FW9",
+                            "description": "",
+                            "efficacyID": 126,
+                            "isActive": true,
+                            "name": "Rối loạn chức năng tiêu hóa",
+                            "slug": "aqfv2u-tieu-hoa-da-day-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "VD1P",
+                            "categoryID": 10003,
+                            "code": "FW961P",
+                            "description": "",
+                            "efficacyID": 25,
+                            "isActive": true,
+                            "name": "Rối loạn dạ dày - thực quản",
+                            "slug": "uaclt0-tri-seo-lam-lien-da",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "VD1P",
+                            "categoryID": 224,
+                            "code": "EQ1PGE",
+                            "description": "",
+                            "efficacyID": 17,
+                            "isActive": true,
+                            "name": "Giảm cân",
+                            "slug": "uaclt0-ho-tro-can-nang",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025f9097a6b3ce711a8bddfeebe696cCategory=3.Tiêu_hoá-dạ_dày.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/202559a8ba88c150d95844cb5c9568df1505_1.svg",
+                    "isActive": true,
+                    "name": "Tiêu hóa, dạ dày",
+                    "priority": 2,
+                    "slug": "tri-tieu-chay---tac-dung-tren-ruot",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 237,
+                    "code": "TREQ1PGEQ1",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "TREQ1PGEQ1",
+                            "code": "AT61PG",
+                            "description": "",
+                            "efficacyID": 239,
+                            "name": "Chống động kinh, parkinson",
+                            "slug": "chong-dong-kinh-parkinson",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "TREQ1PGEQ1",
+                            "code": "YW961P",
+                            "description": "",
+                            "efficacyID": 236,
+                            "name": "Giảm đau thần kinh",
+                            "slug": "giam-dau-than-kinh",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "TREQ1PGEQ1",
+                            "categoryID": 237,
+                            "code": "Q72AXH",
+                            "description": "",
+                            "efficacyID": 123,
+                            "isActive": true,
+                            "name": "An thần, gây mê, chống trầm cảm",
+                            "slug": "aqfv2u-than-kinh-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "TREQ1PGEQ1",
+                            "categoryID": 237,
+                            "code": "P1PGEQ",
+                            "description": "",
+                            "efficacyID": 49,
+                            "isActive": true,
+                            "name": "Tuần hoàn não, tiền đình",
+                            "slug": "p3abcl-ho-tro-nao-va-than-kinh",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202517f381d6a7d648f2ee17b7c5d16aCategory=7.Não_thần_kinh.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025fbde9e78154246a6a7803bfd49c21236_1.svg",
+                    "isActive": true,
+                    "name": "Não, thần kinh",
+                    "priority": 6,
+                    "slug": "than-kinh",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 228,
+                    "code": "4B2AXHR2AX",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "code": "6JYJYJ",
+                            "description": "",
+                            "efficacyID": 219,
+                            "name": "Viêm da, dị ứng, vảy nến, chàm",
+                            "slug": "viem-da-di-ung-vay-nen-cham",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "code": "4961PG",
+                            "description": "",
+                            "efficacyID": 218,
+                            "name": "Trị nấm, vi khuẩn, ký sinh",
+                            "slug": "tri-nam-vi-khuan-ky-sinh",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "code": "XCV84F",
+                            "description": "",
+                            "efficacyID": 146,
+                            "name": "Sát khuẩn, khử khuẩn",
+                            "slug": "aqfv2u-sat-khuan-da-niem-mac-dung-ngoai-xt2u1y",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "categoryID": 228,
+                            "code": "ABCV84",
+                            "description": null,
+                            "efficacyID": 104,
+                            "isActive": true,
+                            "name": "Bổ da, tóc, móng",
+                            "slug": "aqfv2u-da-toc-mong-lalt0t"
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "categoryID": 228,
+                            "code": "FR2AXH",
+                            "description": null,
+                            "efficacyID": 79,
+                            "isActive": true,
+                            "name": "Trị sẹo",
+                            "slug": "drgbcl-ve-sinh-tai-mui-hong"
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "categoryID": 228,
+                            "code": "GEQ1PG",
+                            "description": "",
+                            "efficacyID": 26,
+                            "isActive": true,
+                            "name": "Vết thương ngoài da",
+                            "slug": "uaclt0-tri-viem-da-vet-thuong-ngoai-da",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "categoryID": 228,
+                            "code": "PGEQ1P",
+                            "description": null,
+                            "efficacyID": 22,
+                            "isActive": true,
+                            "name": "Trị mụn",
+                            "slug": "uaclt0-tri-mun"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20254fadba5dbcdba24336688a0ce7e5Category=18.Da_liễu.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20255d7df2d5ecaed898c99327af446c1749_1.svg",
+                    "isActive": true,
+                    "name": "Da liễu",
+                    "priority": 22,
+                    "slug": "da-lieu",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10052,
+                    "code": "JBFW",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "JBFW",
+                            "code": "H4FW96",
+                            "description": "",
+                            "efficacyID": 304,
+                            "name": "Thuốc bổ mắt",
+                            "slug": "thuoc-bo-mat",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "JBFW",
+                            "code": "8V84FW",
+                            "description": "",
+                            "efficacyID": 302,
+                            "name": "Nhỏ mắt",
+                            "slug": "nho-mat",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20255228b29ea42e0ea3523d974d284bCategory=25.Chăm_sóc_mắt.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/202577f2795e4473ebe4919053d6d4861608_1.svg",
+                    "isActive": true,
+                    "name": "Mắt",
+                    "priority": 30,
+                    "slug": "Mắt",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 242,
+                    "code": "XA1PGEQ1PG",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "XA1PGEQ1PG",
+                            "code": "TXHR2A",
+                            "description": "",
+                            "efficacyID": 235,
+                            "name": "Trị thiếu máu",
+                            "slug": "tri-thieu-mau",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "XA1PGEQ1PG",
+                            "code": "RKU72A",
+                            "description": "",
+                            "efficacyID": 234,
+                            "name": "Dịch truyền",
+                            "slug": "dich-truyen",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "XA1PGEQ1PG",
+                            "code": "EAXHR2",
+                            "description": "",
+                            "efficacyID": 233,
+                            "name": "Cầm máu",
+                            "slug": "cam-mau",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "XA1PGEQ1PG",
+                            "categoryID": 242,
+                            "code": "XXHR2A",
+                            "description": "",
+                            "efficacyID": 119,
+                            "isActive": true,
+                            "name": "Chống đông máu",
+                            "slug": "aqfv2u-mau-huyet-hoc-lalt0t",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025ab95522c40ec687dc19b287a42b6Property_1=6.Máu,huyết_học.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20253589b63afb64e95ab863918283e61462_1.svg",
+                    "isActive": true,
+                    "name": "Máu, huyết học",
+                    "priority": 5,
+                    "slug": "mau-sinh-pham-y-te-mien-dich",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 227,
+                    "code": "2C4FW961PG",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "2C4FW961PG",
+                            "code": "UXHR2A",
+                            "description": "",
+                            "efficacyID": 210,
+                            "name": "Gout",
+                            "slug": "gout",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "2C4FW961PG",
+                            "categoryID": 227,
+                            "code": "P4FW96",
+                            "description": "",
+                            "efficacyID": 103,
+                            "isActive": true,
+                            "name": "Loãng xương, còi xương",
+                            "slug": "aqfv2u-co-xuong-khop-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "2C4FW961PG",
+                            "categoryID": 227,
+                            "code": "FEQ1PG",
+                            "description": "",
+                            "efficacyID": 52,
+                            "isActive": true,
+                            "name": "Viêm khớp, thoái hóa khớp",
+                            "slug": "p3abcl-ho-tro-tieu-hoa-da-day",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "2C4FW961PG",
+                            "categoryID": 227,
+                            "code": "JYJYJY",
+                            "description": "",
+                            "efficacyID": 8,
+                            "isActive": true,
+                            "name": "Giãn cơ",
+                            "slug": "yx7gbc-khac",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20253d00c78141fac9ca0a0a94f6cc73Category=8.Cơ_xương_khớp.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20257836704e2c7c9cd00136c2428316112011_1.svg",
+                    "isActive": true,
+                    "name": "Cơ, xương, khớp",
+                    "priority": 7,
+                    "slug": "co-xuong-khop",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 338,
+                    "code": "XG61",
+                    "description": "thuc pham bo sung ",
+                    "efficacies": [
+                        {
+                            "categoryCode": "XG61",
+                            "code": "TCV84F",
+                            "description": "",
+                            "efficacyID": 262,
+                            "name": "Vitamin",
+                            "slug": "vitamin",
+                            "subCategoryCodes": [
+                                "6PCV"
+                            ]
+                        },
+                        {
+                            "categoryCode": "XG61",
+                            "code": "RLPGEQ",
+                            "description": "",
+                            "efficacyID": 261,
+                            "name": "Thuốc bổ",
+                            "slug": "thuoc-bo",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "XG61",
+                            "code": "EDBCV8",
+                            "description": "",
+                            "efficacyID": 260,
+                            "name": "Khoáng chất",
+                            "slug": "khoang-chat",
+                            "subCategoryCodes": [
+                                "6PCV"
+                            ]
+                        },
+                        {
+                            "categoryCode": "XG61",
+                            "categoryID": 338,
+                            "code": "CEQ1PG",
+                            "description": "",
+                            "efficacyID": 120,
+                            "isActive": true,
+                            "name": "Tăng cường miễn dịch",
+                            "slug": "aqfv2u-mien-dich-lalt0t",
+                            "subCategoryCodes": [
+                                "6PCV"
+                            ]
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202530e1f433bbaa3c7a6e7b4ac6adecCategory=13.Vitamin.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025853ac3e4dd2542dccc1dccc874041733_1.svg",
+                    "isActive": true,
+                    "name": "Vitamin, khoáng chất",
+                    "priority": 13,
+                    "slug": "thuc-pham-bo-sung",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 234,
+                    "code": "AG961PGEQ1",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "AG961PGEQ1",
+                            "code": "BYJYJY",
+                            "description": "",
+                            "efficacyID": 230,
+                            "name": "Say tàu xe",
+                            "slug": "say-tau-xe",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "AG961PGEQ1",
+                            "categoryID": 234,
+                            "code": "8961PG",
+                            "description": null,
+                            "efficacyID": 113,
+                            "isActive": true,
+                            "name": "Kháng Histamin (Chống dị ứng)",
+                            "slug": "aqfv2u-khang-histamin-chong-di-ung-lalt0t"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025a55a807fddbff8b079777157bec7Category=11.Kháng_histamin.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025d95c1cc919bdf8750348b98d0f01284394_1.svg",
+                    "isActive": true,
+                    "name": "Kháng Histamin (Chống dị ứng)",
+                    "priority": 10,
+                    "slug": "khang-viem-di-ung",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 240,
+                    "code": "PB2AXHR2AX",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "PB2AXHR2AX",
+                            "categoryID": 240,
+                            "code": "YLPGEQ",
+                            "description": null,
+                            "efficacyID": 74,
+                            "isActive": true,
+                            "name": "Miếng dán",
+                            "slug": "drgbcl-mieng-dan-tac-dong-toan-than"
+                        },
+                        {
+                            "categoryCode": "PB2AXHR2AX",
+                            "categoryID": 240,
+                            "code": "LPGEQ1",
+                            "description": null,
+                            "efficacyID": 10,
+                            "isActive": true,
+                            "name": "Dầu, cao xoa",
+                            "slug": "yx7gbc-tinh-dau-dau-xoa"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025ff2cb42a6c034275217bf855a265Category=12.Miếng_dán.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025fa583ae6a9a24a5686bc9dda412574170_1.svg",
+                    "isActive": true,
+                    "name": "Miếng dán, dầu, cao xoa",
+                    "priority": 11,
+                    "slug": "dau-xoa-cao-xoa",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10059,
+                    "code": "QUEQ",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "QUEQ",
+                            "code": "UBCV84",
+                            "description": "",
+                            "efficacyID": 291,
+                            "name": "Miễn dịch",
+                            "slug": "mien-dich",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "QUEQ",
+                            "categoryID": 242,
+                            "code": "P61PGE",
+                            "description": "",
+                            "efficacyID": 130,
+                            "isActive": true,
+                            "name": "Ung thư",
+                            "slug": "aqfv2u-ung-thu-lalt0t",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202586218d6fe8a7cb2da122871857fdCategory=Cancer.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025b6cc817b12b77d80e78eda0ee52f11466_1.svg",
+                    "isActive": true,
+                    "name": "Ung thư, miễn dịch",
+                    "priority": 32,
+                    "slug": "ung-thu-mien-dich",
+                    "systemDisplay": "BUYMED"
+                }
+            ],
+            "code": "THUOC_KE_DON",
+            "iconActiveUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/2025af535ce49d7dc329dd5731ebb3e7thuockedon_active.svg",
+            "iconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/2025c361d66b458e3399de762467f460thuockedon_inactive.svg",
+            "isActive": true,
+            "label": "Thuốc Kê Đơn",
+            "mapParams": {
+                "tag": "32U1"
+            },
+            "url": "https://thuocsi.vn/products?tag=32U1"
+        },
+        {
+            "categories": [
+                {
+                    "categoryID": 10003,
+                    "code": "VD1P",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "VD1P",
+                            "code": "9CV84F",
+                            "description": "",
+                            "efficacyID": 249,
+                            "name": "Tiêu chảy, viêm ruột",
+                            "slug": "tieu-chay-viem-ruot",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "VD1P",
+                            "code": "8XHR2A",
+                            "description": "",
+                            "efficacyID": 248,
+                            "name": "Táo bón",
+                            "slug": "tao-bon",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "VD1P",
+                            "categoryID": 10003,
+                            "code": "R84FW9",
+                            "description": "",
+                            "efficacyID": 126,
+                            "isActive": true,
+                            "name": "Rối loạn chức năng tiêu hóa",
+                            "slug": "aqfv2u-tieu-hoa-da-day-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "VD1P",
+                            "categoryID": 10003,
+                            "code": "FW961P",
+                            "description": "",
+                            "efficacyID": 25,
+                            "isActive": true,
+                            "name": "Rối loạn dạ dày - thực quản",
+                            "slug": "uaclt0-tri-seo-lam-lien-da",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "VD1P",
+                            "categoryID": 224,
+                            "code": "EQ1PGE",
+                            "description": "",
+                            "efficacyID": 17,
+                            "isActive": true,
+                            "name": "Giảm cân",
+                            "slug": "uaclt0-ho-tro-can-nang",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025f9097a6b3ce711a8bddfeebe696cCategory=3.Tiêu_hoá-dạ_dày.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/202559a8ba88c150d95844cb5c9568df1505_1.svg",
+                    "isActive": true,
+                    "name": "Tiêu hóa, dạ dày",
+                    "priority": 2,
+                    "slug": "tri-tieu-chay---tac-dung-tren-ruot",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 226,
+                    "code": "1XAXHR2AXH",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "1XAXHR2AXH",
+                            "code": "QJYJYJ",
+                            "description": "",
+                            "efficacyID": 231,
+                            "name": "Kháng viêm dạng men",
+                            "slug": "khang-viem-dang-men",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "1XAXHR2AXH",
+                            "categoryID": 274,
+                            "code": "44FW96",
+                            "description": "",
+                            "efficacyID": 110,
+                            "isActive": true,
+                            "name": "Giảm đau, hạ sốt",
+                            "slug": "aqfv2u-giam-dau-ha-sot-nsaids-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "1XAXHR2AXH",
+                            "categoryID": 226,
+                            "code": "R4FW96",
+                            "description": null,
+                            "efficacyID": 45,
+                            "isActive": true,
+                            "name": "Kháng viêm non-steroid",
+                            "slug": "p3abcl-ho-tro-khang-viem"
+                        },
+                        {
+                            "categoryCode": "1XAXHR2AXH",
+                            "categoryID": 226,
+                            "code": "EW961P",
+                            "description": null,
+                            "efficacyID": 44,
+                            "isActive": true,
+                            "name": "Kháng viêm corticoid",
+                            "slug": "p3abcl-ho-tro-giam-dau-ha-sot"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20254693f40b70e5da38a00639ef4e9aCategory=9.Giảm_đau_hạ_sốt.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025d8ff3654ff8fde6135200cebaf4d2419_1.svg",
+                    "isActive": true,
+                    "name": "Giảm đau, hạ sốt, kháng viêm",
+                    "priority": 8,
+                    "slug": "tai-mui-hong-ho-hap",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 274,
+                    "code": "LXAXHR2AXH",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "LXAXHR2AXH",
+                            "code": "4HR2AX",
+                            "description": "",
+                            "efficacyID": 245,
+                            "name": "Mũi",
+                            "slug": "m-i",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "LXAXHR2AXH",
+                            "code": "172AXH",
+                            "description": "",
+                            "efficacyID": 243,
+                            "name": "Răng, miệng",
+                            "slug": "rang-mieng",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "LXAXHR2AXH",
+                            "categoryID": 274,
+                            "code": "672AXH",
+                            "description": null,
+                            "efficacyID": 111,
+                            "isActive": true,
+                            "name": "Hen, COPD, phổi",
+                            "slug": "aqfv2u-hen-copd-phoi-lalt0t"
+                        },
+                        {
+                            "categoryCode": "LXAXHR2AXH",
+                            "categoryID": 274,
+                            "code": "ACV84F",
+                            "description": "",
+                            "efficacyID": 50,
+                            "isActive": true,
+                            "name": "Tai",
+                            "slug": "p3abcl-ho-tro-tai-mui-hong",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "LXAXHR2AXH",
+                            "categoryID": 274,
+                            "code": "YKU72A",
+                            "description": null,
+                            "efficacyID": 47,
+                            "isActive": true,
+                            "name": "Ho, cảm cúm",
+                            "slug": "p3abcl-ho-tro-mat"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025efe8aea74e75bd99120c3b0ffa4fCategory=5.Tai_mũi_họng.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20259715ee97cfd1343b8ed4d562b8271715_1.svg",
+                    "isActive": true,
+                    "name": "Tai, mũi, họng",
+                    "priority": 4,
+                    "slug": "dung-cu-y-te",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 237,
+                    "code": "TREQ1PGEQ1",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "TREQ1PGEQ1",
+                            "code": "AT61PG",
+                            "description": "",
+                            "efficacyID": 239,
+                            "name": "Chống động kinh, parkinson",
+                            "slug": "chong-dong-kinh-parkinson",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "TREQ1PGEQ1",
+                            "code": "YW961P",
+                            "description": "",
+                            "efficacyID": 236,
+                            "name": "Giảm đau thần kinh",
+                            "slug": "giam-dau-than-kinh",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "TREQ1PGEQ1",
+                            "categoryID": 237,
+                            "code": "Q72AXH",
+                            "description": "",
+                            "efficacyID": 123,
+                            "isActive": true,
+                            "name": "An thần, gây mê, chống trầm cảm",
+                            "slug": "aqfv2u-than-kinh-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "TREQ1PGEQ1",
+                            "categoryID": 237,
+                            "code": "P1PGEQ",
+                            "description": "",
+                            "efficacyID": 49,
+                            "isActive": true,
+                            "name": "Tuần hoàn não, tiền đình",
+                            "slug": "p3abcl-ho-tro-nao-va-than-kinh",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202517f381d6a7d648f2ee17b7c5d16aCategory=7.Não_thần_kinh.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025fbde9e78154246a6a7803bfd49c21236_1.svg",
+                    "isActive": true,
+                    "name": "Não, thần kinh",
+                    "priority": 6,
+                    "slug": "than-kinh",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 240,
+                    "code": "PB2AXHR2AX",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "PB2AXHR2AX",
+                            "categoryID": 240,
+                            "code": "YLPGEQ",
+                            "description": null,
+                            "efficacyID": 74,
+                            "isActive": true,
+                            "name": "Miếng dán",
+                            "slug": "drgbcl-mieng-dan-tac-dong-toan-than"
+                        },
+                        {
+                            "categoryCode": "PB2AXHR2AX",
+                            "categoryID": 240,
+                            "code": "LPGEQ1",
+                            "description": null,
+                            "efficacyID": 10,
+                            "isActive": true,
+                            "name": "Dầu, cao xoa",
+                            "slug": "yx7gbc-tinh-dau-dau-xoa"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025ff2cb42a6c034275217bf855a265Category=12.Miếng_dán.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025fa583ae6a9a24a5686bc9dda412574170_1.svg",
+                    "isActive": true,
+                    "name": "Miếng dán, dầu, cao xoa",
+                    "priority": 11,
+                    "slug": "dau-xoa-cao-xoa",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 234,
+                    "code": "AG961PGEQ1",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "AG961PGEQ1",
+                            "code": "BYJYJY",
+                            "description": "",
+                            "efficacyID": 230,
+                            "name": "Say tàu xe",
+                            "slug": "say-tau-xe",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "AG961PGEQ1",
+                            "categoryID": 234,
+                            "code": "8961PG",
+                            "description": null,
+                            "efficacyID": 113,
+                            "isActive": true,
+                            "name": "Kháng Histamin (Chống dị ứng)",
+                            "slug": "aqfv2u-khang-histamin-chong-di-ung-lalt0t"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025a55a807fddbff8b079777157bec7Category=11.Kháng_histamin.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025d95c1cc919bdf8750348b98d0f01284394_1.svg",
+                    "isActive": true,
+                    "name": "Kháng Histamin (Chống dị ứng)",
+                    "priority": 10,
+                    "slug": "khang-viem-di-ung",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 227,
+                    "code": "2C4FW961PG",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "2C4FW961PG",
+                            "code": "UXHR2A",
+                            "description": "",
+                            "efficacyID": 210,
+                            "name": "Gout",
+                            "slug": "gout",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "2C4FW961PG",
+                            "categoryID": 227,
+                            "code": "P4FW96",
+                            "description": "",
+                            "efficacyID": 103,
+                            "isActive": true,
+                            "name": "Loãng xương, còi xương",
+                            "slug": "aqfv2u-co-xuong-khop-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "2C4FW961PG",
+                            "categoryID": 227,
+                            "code": "FEQ1PG",
+                            "description": "",
+                            "efficacyID": 52,
+                            "isActive": true,
+                            "name": "Viêm khớp, thoái hóa khớp",
+                            "slug": "p3abcl-ho-tro-tieu-hoa-da-day",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "2C4FW961PG",
+                            "categoryID": 227,
+                            "code": "JYJYJY",
+                            "description": "",
+                            "efficacyID": 8,
+                            "isActive": true,
+                            "name": "Giãn cơ",
+                            "slug": "yx7gbc-khac",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20253d00c78141fac9ca0a0a94f6cc73Category=8.Cơ_xương_khớp.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20257836704e2c7c9cd00136c2428316112011_1.svg",
+                    "isActive": true,
+                    "name": "Cơ, xương, khớp",
+                    "priority": 7,
+                    "slug": "co-xuong-khop",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10052,
+                    "code": "JBFW",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "JBFW",
+                            "code": "H4FW96",
+                            "description": "",
+                            "efficacyID": 304,
+                            "name": "Thuốc bổ mắt",
+                            "slug": "thuoc-bo-mat",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "JBFW",
+                            "code": "8V84FW",
+                            "description": "",
+                            "efficacyID": 302,
+                            "name": "Nhỏ mắt",
+                            "slug": "nho-mat",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20255228b29ea42e0ea3523d974d284bCategory=25.Chăm_sóc_mắt.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/202577f2795e4473ebe4919053d6d4861608_1.svg",
+                    "isActive": true,
+                    "name": "Mắt",
+                    "priority": 30,
+                    "slug": "Mắt",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 338,
+                    "code": "XG61",
+                    "description": "thuc pham bo sung ",
+                    "efficacies": [
+                        {
+                            "categoryCode": "XG61",
+                            "code": "TCV84F",
+                            "description": "",
+                            "efficacyID": 262,
+                            "name": "Vitamin",
+                            "slug": "vitamin",
+                            "subCategoryCodes": [
+                                "6PCV"
+                            ]
+                        },
+                        {
+                            "categoryCode": "XG61",
+                            "code": "RLPGEQ",
+                            "description": "",
+                            "efficacyID": 261,
+                            "name": "Thuốc bổ",
+                            "slug": "thuoc-bo",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "XG61",
+                            "code": "EDBCV8",
+                            "description": "",
+                            "efficacyID": 260,
+                            "name": "Khoáng chất",
+                            "slug": "khoang-chat",
+                            "subCategoryCodes": [
+                                "6PCV"
+                            ]
+                        },
+                        {
+                            "categoryCode": "XG61",
+                            "categoryID": 338,
+                            "code": "CEQ1PG",
+                            "description": "",
+                            "efficacyID": 120,
+                            "isActive": true,
+                            "name": "Tăng cường miễn dịch",
+                            "slug": "aqfv2u-mien-dich-lalt0t",
+                            "subCategoryCodes": [
+                                "6PCV"
+                            ]
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202530e1f433bbaa3c7a6e7b4ac6adecCategory=13.Vitamin.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025853ac3e4dd2542dccc1dccc874041733_1.svg",
+                    "isActive": true,
+                    "name": "Vitamin, khoáng chất",
+                    "priority": 13,
+                    "slug": "thuc-pham-bo-sung",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 235,
+                    "code": "JKLPGEQ1PG",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "JKLPGEQ1PG",
+                            "code": "VV84FW",
+                            "description": "",
+                            "efficacyID": 229,
+                            "name": "Tuyến giáp",
+                            "slug": "tuyen-giap",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "JKLPGEQ1PG",
+                            "categoryID": 235,
+                            "code": "ET61PG",
+                            "description": "",
+                            "efficacyID": 125,
+                            "isActive": true,
+                            "name": "Tiền liệt tuyến",
+                            "slug": "aqfv2u-tien-liet-hormon-nam-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "JKLPGEQ1PG",
+                            "categoryID": 235,
+                            "code": "WLPGEQ",
+                            "description": "",
+                            "efficacyID": 124,
+                            "isActive": true,
+                            "name": "Thận, tiết niệu",
+                            "slug": "aqfv2u-than-tiet-nieu-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "JKLPGEQ1PG",
+                            "categoryID": 235,
+                            "code": "784FW9",
+                            "description": null,
+                            "efficacyID": 112,
+                            "isActive": true,
+                            "name": "Hormon nữ, tránh thai",
+                            "slug": "aqfv2u-hormon-nu-tranh-thai-lalt0t"
+                        },
+                        {
+                            "categoryCode": "JKLPGEQ1PG",
+                            "categoryID": 223,
+                            "code": "YJYJYJ",
+                            "description": "",
+                            "efficacyID": 20,
+                            "isActive": true,
+                            "name": "Phụ khoa, nam khoa",
+                            "slug": "uaclt0-phu-khoanam-khoa",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202510183bb0b0d71ceb925e43ddacc3Category=15.Hoomon_sinh_lý.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20250dce00f8986da64b3257050516731421_1.svg",
+                    "isActive": true,
+                    "name": "Hormon, sinh lý",
+                    "priority": 15,
+                    "slug": "nhan-khoa",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 228,
+                    "code": "4B2AXHR2AX",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "code": "6JYJYJ",
+                            "description": "",
+                            "efficacyID": 219,
+                            "name": "Viêm da, dị ứng, vảy nến, chàm",
+                            "slug": "viem-da-di-ung-vay-nen-cham",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "code": "4961PG",
+                            "description": "",
+                            "efficacyID": 218,
+                            "name": "Trị nấm, vi khuẩn, ký sinh",
+                            "slug": "tri-nam-vi-khuan-ky-sinh",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "code": "XCV84F",
+                            "description": "",
+                            "efficacyID": 146,
+                            "name": "Sát khuẩn, khử khuẩn",
+                            "slug": "aqfv2u-sat-khuan-da-niem-mac-dung-ngoai-xt2u1y",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "categoryID": 228,
+                            "code": "ABCV84",
+                            "description": null,
+                            "efficacyID": 104,
+                            "isActive": true,
+                            "name": "Bổ da, tóc, móng",
+                            "slug": "aqfv2u-da-toc-mong-lalt0t"
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "categoryID": 228,
+                            "code": "FR2AXH",
+                            "description": null,
+                            "efficacyID": 79,
+                            "isActive": true,
+                            "name": "Trị sẹo",
+                            "slug": "drgbcl-ve-sinh-tai-mui-hong"
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "categoryID": 228,
+                            "code": "GEQ1PG",
+                            "description": "",
+                            "efficacyID": 26,
+                            "isActive": true,
+                            "name": "Vết thương ngoài da",
+                            "slug": "uaclt0-tri-viem-da-vet-thuong-ngoai-da",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "4B2AXHR2AX",
+                            "categoryID": 228,
+                            "code": "PGEQ1P",
+                            "description": null,
+                            "efficacyID": 22,
+                            "isActive": true,
+                            "name": "Trị mụn",
+                            "slug": "uaclt0-tri-mun"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20254fadba5dbcdba24336688a0ce7e5Category=18.Da_liễu.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20255d7df2d5ecaed898c99327af446c1749_1.svg",
+                    "isActive": true,
+                    "name": "Da liễu",
+                    "priority": 22,
+                    "slug": "da-lieu",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 231,
+                    "code": "D4BCV84FW9",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "D4BCV84FW9",
+                            "code": "J4FW96",
+                            "description": "",
+                            "efficacyID": 251,
+                            "name": "Điều trị suy giãn tĩnh mạch",
+                            "slug": "dieu-tri-suy-gian-t-nh-mach",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "D4BCV84FW9",
+                            "categoryID": 231,
+                            "code": "THR2AX",
+                            "description": null,
+                            "efficacyID": 127,
+                            "isActive": true,
+                            "name": "Tim",
+                            "slug": "aqfv2u-tim-mach-huyet-ap-lalt0t"
+                        },
+                        {
+                            "categoryCode": "D4BCV84FW9",
+                            "categoryID": 242,
+                            "code": "WJYJYJ",
+                            "description": "",
+                            "efficacyID": 70,
+                            "isActive": true,
+                            "name": "Lipid máu",
+                            "slug": "drgbcl-may-va-dung-cu-do-nong-do-oxy-trong-mau",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "D4BCV84FW9",
+                            "categoryID": 231,
+                            "code": "LAXHR2",
+                            "description": null,
+                            "efficacyID": 37,
+                            "isActive": true,
+                            "name": "Huyết áp",
+                            "slug": "p3abcl-ho-tro-dieu-tri-tim-mach-huyet-ap"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025d493d9adfe2b938ca6041628b07dCategory=4.Tim_mạch.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025553b0d193cff3e8dc6f4d606e00f1584_1.svg",
+                    "isActive": true,
+                    "name": "Tim, mạch, huyết áp",
+                    "priority": 3,
+                    "slug": "tim-mach",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 233,
+                    "code": "KLXHR2AXHR",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "KLXHR2AXHR",
+                            "categoryID": 233,
+                            "code": "7961PG",
+                            "description": null,
+                            "efficacyID": 139,
+                            "isActive": true,
+                            "name": "Giun, sán",
+                            "slug": "aqfv2u-giun-san-xt2u1y"
+                        },
+                        {
+                            "categoryCode": "KLXHR2AXHR",
+                            "categoryID": 233,
+                            "code": "KFW961",
+                            "description": "",
+                            "efficacyID": 117,
+                            "isActive": true,
+                            "name": "Kháng virus",
+                            "slug": "aqfv2u-khang-virus-lalt0t",
+                            "subCategoryCodes": [
+                                "4B2AXHR2AX",
+                                "KLXHR2AXHR"
+                            ]
+                        },
+                        {
+                            "categoryCode": "KLXHR2AXHR",
+                            "categoryID": 233,
+                            "code": "HPGEQ1",
+                            "description": null,
+                            "efficacyID": 115,
+                            "isActive": true,
+                            "name": "Kháng sinh",
+                            "slug": "aqfv2u-khang-sinh-lalt0t"
+                        },
+                        {
+                            "categoryCode": "KLXHR2AXHR",
+                            "categoryID": 233,
+                            "code": "9HR2AX",
+                            "description": null,
+                            "efficacyID": 114,
+                            "isActive": true,
+                            "name": "Kháng nấm",
+                            "slug": "aqfv2u-khang-nam-lalt0t"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202577a9edddcc6df2bf8f210c31a8f6Category=10.Kháng_vi_sinh.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20258e1c24d17f7686d93472e53e747c1127079_1.svg",
+                    "isActive": true,
+                    "name": "Kháng vi sinh vật",
+                    "priority": 9,
+                    "slug": "khang-sinh-nam-virus-ki-sinh-trung",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 241,
+                    "code": "RWPGEQ1PGE",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "RWPGEQ1PGE",
+                            "code": "XR2AXH",
+                            "description": "",
+                            "efficacyID": 308,
+                            "name": "Viêm gan, xơ gan",
+                            "slug": "viem-gan-xo-gan",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "RWPGEQ1PGE",
+                            "categoryID": 241,
+                            "code": "1GEQ1P",
+                            "description": "",
+                            "efficacyID": 108,
+                            "isActive": true,
+                            "name": "Giải độc gan",
+                            "slug": "aqfv2u-gan-mat-lalt0t",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "RWPGEQ1PGE",
+                            "categoryID": 241,
+                            "code": "BV84FW",
+                            "description": "",
+                            "efficacyID": 41,
+                            "isActive": true,
+                            "name": "Sỏi mật",
+                            "slug": "p3abcl-ho-tro-gan-mat-giai-doc",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20250e355fcf1ad38d5a930ed38e9826Category=16._Gan_mật.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025ab794776aecce1d2783e650a94501483_1.svg",
+                    "isActive": true,
+                    "name": "Gan, mật",
+                    "priority": 18,
+                    "slug": "gan-giai-doc",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 242,
+                    "code": "XA1PGEQ1PG",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "XA1PGEQ1PG",
+                            "code": "TXHR2A",
+                            "description": "",
+                            "efficacyID": 235,
+                            "name": "Trị thiếu máu",
+                            "slug": "tri-thieu-mau",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "XA1PGEQ1PG",
+                            "code": "RKU72A",
+                            "description": "",
+                            "efficacyID": 234,
+                            "name": "Dịch truyền",
+                            "slug": "dich-truyen",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "XA1PGEQ1PG",
+                            "code": "EAXHR2",
+                            "description": "",
+                            "efficacyID": 233,
+                            "name": "Cầm máu",
+                            "slug": "cam-mau",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "XA1PGEQ1PG",
+                            "categoryID": 242,
+                            "code": "XXHR2A",
+                            "description": "",
+                            "efficacyID": 119,
+                            "isActive": true,
+                            "name": "Chống đông máu",
+                            "slug": "aqfv2u-mau-huyet-hoc-lalt0t",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025ab95522c40ec687dc19b287a42b6Property_1=6.Máu,huyết_học.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20253589b63afb64e95ab863918283e61462_1.svg",
+                    "isActive": true,
+                    "name": "Máu, huyết học",
+                    "priority": 5,
+                    "slug": "mau-sinh-pham-y-te-mien-dich",
+                    "systemDisplay": "BUYMED"
+                }
+            ],
+            "code": "THUOC_KHONG_KE_DON",
+            "iconActiveUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/20259673c0bcaa15f1083569720ae70ethuoc0kedon_active2.svg",
+            "iconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/202509d02932b0119233d9d68f71b0a6thuockhongkedon.svg",
+            "isActive": true,
+            "label": "Thuốc Không Kê Đơn",
+            "mapParams": {
+                "tag": "A4DX"
+            },
+            "url": "https://thuocsi.vn/products?tag=A4DX"
+        },
+        {
+            "categories": [
+                {
+                    "categoryID": 10071,
+                    "code": "1E2A",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "1E2A",
+                            "code": "H1PGEQ",
+                            "description": "",
+                            "efficacyID": 250,
+                            "name": "Hỗ trợ dạ dày",
+                            "slug": "ho-tro-da-day",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "1E2A",
+                            "code": "7LPGEQ",
+                            "description": "",
+                            "efficacyID": 247,
+                            "name": "Hỗ trợ tiêu hóa",
+                            "slug": "ho-tro-tieu-hoa",
+                            "subCategoryCodes": [
+                                "X2KU"
+                            ]
+                        },
+                        {
+                            "categoryCode": "1E2A",
+                            "code": "6KU72A",
+                            "description": "",
+                            "efficacyID": 246,
+                            "name": "Hỗ trợ đại tràng",
+                            "slug": "ho-tro-dai-trang",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025681fecf8e89668cdfc4789941c4d10_Ho╠é╠â_tro╠¢╠ú_tie╠éu_ho╠üa,_da╠ú_da╠Çy.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/202565717391dcb69bff863f9d44c749811414_1.svg",
+                    "isActive": true,
+                    "name": "Hỗ trợ tiêu hóa, dạ dày",
+                    "priority": 38,
+                    "slug": "ho-tro-tieu-hoa-da-day",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10074,
+                    "code": "6PCV",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "6PCV",
+                            "code": "WQ1PGE",
+                            "description": "",
+                            "efficacyID": 259,
+                            "name": "Dinh dưỡng bổ sung",
+                            "slug": "dinh-duong-bo-sung",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "6PCV",
+                            "code": "QKU72A",
+                            "description": "",
+                            "efficacyID": 258,
+                            "name": "Dầu cá, omega 3",
+                            "slug": "dau-ca-omega-3",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025dde6975eb1b93a45f57425939a5713_Bo╠é╠ë_sung_vitamin,_khoa╠üng_cha╠é╠üt.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025cf07c089dcf135adc3b554f5905e3076_1.svg",
+                    "isActive": true,
+                    "name": "Bổ sung vitamin, khoáng chất",
+                    "priority": 35,
+                    "slug": "bo-sung-vitamin-khoang-chat",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10070,
+                    "code": "GXYJ",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "GXYJ",
+                            "code": "GFW961",
+                            "description": "",
+                            "efficacyID": 242,
+                            "name": "Hỗ trợ viêm xoang",
+                            "slug": "ho-tro-viem-xoang",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "GXYJ",
+                            "code": "FDBCV8",
+                            "description": "",
+                            "efficacyID": 241,
+                            "name": "Hỗ trợ giảm ho, đau họng",
+                            "slug": "ho-tro-giam-ho-dau-h-ng",
+                            "subCategoryCodes": [
+                                "X2KU"
+                            ]
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025fd77126abcf96ddb927829073d7009_Ho╠é╠â_tro╠¢╠ú_tai,_mu╠âi,_ho╠úng.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20257c1990b6efcb25e06789065e86b31761_1.svg",
+                    "isActive": true,
+                    "name": "Hỗ trợ tai, mũi, họng",
+                    "priority": 39,
+                    "slug": "ho-tro-tai-m-i-h-ng",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10063,
+                    "code": "TD1P",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "TD1P",
+                            "code": "AR2AXH",
+                            "description": "",
+                            "efficacyID": 212,
+                            "name": "Hỗ trợ xương khớp",
+                            "slug": "ho-tro-xuong-khop",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "TD1P",
+                            "code": "P961PG",
+                            "description": "",
+                            "efficacyID": 211,
+                            "name": "Hỗ trợ điều trị gout",
+                            "slug": "ho-tro-dieu-tri-gout",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "TD1P",
+                            "code": "YQ1PGE",
+                            "description": "",
+                            "efficacyID": 209,
+                            "name": "Bổ sung Canxi - Vitamin D",
+                            "slug": "bo-sung-canxi-vitamin-d",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20250e28a1fb6f7220144b235c24792602_Ho╠é╠â_tro╠¢╠ú_co╠¢,_xu╠¢o╠¢ng,_kho╠¢╠üp.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20255052b3f99451677da324eb6fe4b71762_1.svg",
+                    "isActive": true,
+                    "name": "Hỗ trợ cơ, xương, khớp",
+                    "priority": 47,
+                    "slug": "ho-tro-co-xuong-khop",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10069,
+                    "code": "FLJY",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "FLJY",
+                            "code": "PHR2AX",
+                            "description": "",
+                            "efficacyID": 238,
+                            "name": "Hỗ trợ não bộ và tuần hoàn não",
+                            "slug": "ho-tro-nao-bo-va-tuan-hoan-nao",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "FLJY",
+                            "code": "UCV84F",
+                            "description": "",
+                            "efficacyID": 237,
+                            "name": "Hỗ trợ an thần, ngủ ngon",
+                            "slug": "ho-tro-an-than-ng-ngon",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025c85e5eb2720a282f4dbc7afbeaff07_Ho╠é╠â_tro╠¢╠ú_na╠âo,_tha╠é╠Çn_kinh.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025c0b70482b7adc32892fcb12d939b2003633_1.svg",
+                    "isActive": true,
+                    "name": "Hỗ trợ não, thần kinh",
+                    "priority": 41,
+                    "slug": "ho-tro-nao-than-kinh",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10066,
+                    "code": "PYU7",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "PYU7",
+                            "code": "XQ1PGE",
+                            "description": "",
+                            "efficacyID": 227,
+                            "name": "Hỗ trợ tiết niệu",
+                            "slug": "ho-tro-tiet-nieu",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "PYU7",
+                            "code": "K4FW96",
+                            "description": "",
+                            "efficacyID": 225,
+                            "name": "Cân bằng nội tiết",
+                            "slug": "can-bang-noi-tiet",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "PYU7",
+                            "code": "J2AXHR",
+                            "description": "",
+                            "efficacyID": 224,
+                            "name": "Bổ thận, hỗ trợ sinh lý nam",
+                            "slug": "bo-than-trang-duong",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025fbcfef9a15e40d6f01a80b8f9e4c05_Sinh_ly╠ü,_no╠ú╠éi_tie╠é╠üt_to╠é╠ü.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20253612f25cb8128f4fc5af39b695a82135_1.svg",
+                    "isActive": true,
+                    "name": "Sinh lý, nội tiết tố",
+                    "priority": 44,
+                    "slug": "sinh-ly-noi-tiet-to",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10065,
+                    "code": "UF4F",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "UF4F",
+                            "code": "K84FW9",
+                            "description": "",
+                            "efficacyID": 306,
+                            "name": "Thanh nhiệt, mát gan",
+                            "slug": "thanh-nhiet-mat-gan",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "UF4F",
+                            "code": "J72AXH",
+                            "description": "",
+                            "efficacyID": 305,
+                            "name": "Hỗ trợ giải độc gan",
+                            "slug": "ho-tro-giai-doc-gan",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "UF4F",
+                            "code": "HGEQ1P",
+                            "description": "",
+                            "efficacyID": 223,
+                            "name": "Hỗ trợ chức năng gan",
+                            "slug": "ho-tro-chuc-nang-gan",
+                            "subCategoryCodes": [
+                                "X2KU"
+                            ]
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202595c2c461620f2a4d0ff4470f85e604_Ho╠é╠â_tro╠¢╠ú_gan,_ma╠ú╠ét.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025bf48b0bcb3c4d179f8fda88ee788457362_1.svg",
+                    "isActive": true,
+                    "name": "Hỗ trợ gan, mật",
+                    "priority": 45,
+                    "slug": "ho-tro-gan-mat",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10050,
+                    "code": "9D1P",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "9D1P",
+                            "code": "8CV84F",
+                            "description": "",
+                            "efficacyID": 275,
+                            "name": "Hỗ trợ giảm cân",
+                            "slug": "ho-tro-giam-can",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "9D1P",
+                            "code": "184FW9",
+                            "description": "",
+                            "efficacyID": 270,
+                            "name": "Hỗ trợ tóc, móng",
+                            "slug": "ho-tro-toc-mong",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "9D1P",
+                            "code": "GGEQ1P",
+                            "description": "",
+                            "efficacyID": 269,
+                            "name": "Hỗ trợ làn da",
+                            "slug": "ho-tro-lan-da",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025b6a5adca2999c080fa00f5160badCategory=21.Hỗ_trợ_làm_đẹp.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20252882fdc7dc5d0f5303b7b46ff95213926_1.svg",
+                    "isActive": true,
+                    "name": "Hỗ trợ làm đẹp",
+                    "priority": 26,
+                    "slug": "Hotrolamdep",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10064,
+                    "code": "Y4XH",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "Y4XH",
+                            "code": "7KU72A",
+                            "description": "",
+                            "efficacyID": 220,
+                            "name": "Hỗ trợ giảm đường huyết",
+                            "slug": "ho-tro-giam-duong-huyet",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025778c159de178532eb84a44b8690b03_Ho╠é╠â_tro╠¢╠ú_─æa╠üi_tha╠üo_─æu╠¢o╠¢╠Çng.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025e77d16888f077a56de1780291dfd2618_1.svg",
+                    "isActive": true,
+                    "name": "Hỗ trợ đái tháo đường",
+                    "priority": 46,
+                    "slug": "ho-tro-dai-thao-duong",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10072,
+                    "code": "2RBC",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "2RBC",
+                            "code": "L72AXH",
+                            "description": "",
+                            "efficacyID": 253,
+                            "name": "Hỗ trợ tim mạch, huyết áp",
+                            "slug": "ho-tro-ti-mach-huyet-ap",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "2RBC",
+                            "code": "K61PGE",
+                            "description": "",
+                            "efficacyID": 252,
+                            "name": "Hỗ trợ điều trị trĩ, suy giãn tĩnh mạch",
+                            "slug": "ho-tro-dieu-tri-tr-suy-gian-t-nh-mach",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20258cc3ebf2022b34557bc440060d3f13_Bo╠é╠ë_sung_vitamin,_khoa╠üng_cha╠é╠üt.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/202579fd061b89bdfd5c1b8c4e7046ca5618_1.svg",
+                    "isActive": true,
+                    "name": "Sức khỏe tim, mạch, huyết áp",
+                    "priority": 37,
+                    "slug": "suc-khoe-tim-mach-huyet-ap",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10068,
+                    "code": "DJ96",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "DJ96",
+                            "categoryID": 242,
+                            "code": "U84FW9",
+                            "description": "",
+                            "efficacyID": 48,
+                            "isActive": true,
+                            "name": "Bổ máu",
+                            "slug": "p3abcl-ho-tro-mau",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202516555550ea4c8195ca6ed0175a1a08_Ho╠é╠â_tro╠¢╠ú_ta╠úo_ma╠üu.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20256439c97b6e644a3c6cbbc0942000150171_1.svg",
+                    "isActive": true,
+                    "name": "Hỗ trợ tạo máu",
+                    "priority": 42,
+                    "slug": "ho-tro-tao-mau",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10067,
+                    "code": "A8Q1",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "A8Q1",
+                            "code": "YEQ1PG",
+                            "description": "",
+                            "efficacyID": 263,
+                            "name": "Bổ mắt",
+                            "slug": "bo-mat",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025363e17cbc0307ea9436c75f04b0206_Su╠¢╠üc_kho╠ëe_ma╠å╠üt.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20259c4d153e9c9982054389c3ec51c5165690_1.svg",
+                    "isActive": true,
+                    "name": "Sức khỏe mắt",
+                    "priority": 43,
+                    "slug": "suc-khoe-mat",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10073,
+                    "code": "4YU7",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "4YU7",
+                            "code": "PKU72A",
+                            "description": "",
+                            "efficacyID": 292,
+                            "name": "Hỗ trợ điều trị khối u",
+                            "slug": "ho-tro-dieu-tri-khoi-u",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20256a83b3b5a3ced7a0c1f6ce49bad012_Ho╠é╠â_tro╠¢╠ú_ung_thu╠¢,_mie╠é╠ân_di╠úch.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025210514a12a71de6b1754f8049ba811466_1.svg",
+                    "isActive": true,
+                    "name": "Hỗ trợ ung thư, miễn dịch",
+                    "priority": 36,
+                    "slug": "ho-tro-ung-thu-mien-dich",
+                    "systemDisplay": "BUYMED"
+                }
+            ],
+            "code": "THUC_PHAM_CHUC_NANG",
+            "iconActiveUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/20257bb04ed2750c5ca9ad4e8f2d72c0thucphamchucnang2_active.svg",
+            "iconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/20259a3998af0979ca2af9fd37125b7athucphamchucnang.svg",
+            "isActive": true,
+            "label": "Thực Phẩm Chức Năng",
+            "mapParams": {
+                "tag": "VDCL"
+            },
+            "url": "https://thuocsi.vn/products?tag=VDCL"
+        },
+        {
+            "categories": [
+                {
+                    "categoryID": 273,
+                    "code": "6WPGEQ1PGE",
+                    "description": "Tất cả các sản phẩm không được bán thông dụng ở các nhà thuốc như các bộ kit chẩn đoán, thuốc ung thư, vaccine, các dung dịch dùng trong bệnh viện,... ",
+                    "efficacies": [
+                        {
+                            "categoryCode": "6WPGEQ1PGE",
+                            "code": "G1PGEQ",
+                            "description": "",
+                            "efficacyID": 296,
+                            "name": "Nước hoa, khử mùi",
+                            "slug": "nuoc-hoa-kh-mui",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "6WPGEQ1PGE",
+                            "code": "FGEQ1P",
+                            "description": "",
+                            "efficacyID": 295,
+                            "name": "Tắm, làm sạch",
+                            "slug": "tam-lam-sach",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "6WPGEQ1PGE",
+                            "code": "WV84FW",
+                            "description": "",
+                            "efficacyID": 205,
+                            "name": "Chăm sóc cơ thể",
+                            "slug": "cham-soc-co-the",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "6WPGEQ1PGE",
+                            "code": "QHR2AX",
+                            "description": "",
+                            "efficacyID": 204,
+                            "name": "Vệ sinh phụ nữ",
+                            "slug": "ve-sinh-ca-nhan",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "6WPGEQ1PGE",
+                            "categoryID": 230,
+                            "code": "72AXHR",
+                            "description": "",
+                            "efficacyID": 4,
+                            "isActive": true,
+                            "name": "Chăm sóc răng miệng",
+                            "slug": "yx7gbc-cham-soc-rang-mieng",
+                            "subCategoryCodes": [
+                                "LWT6",
+                                "6WPGEQ1PGE",
+                                "HCGE"
+                            ]
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025d0e88e50f0ebe8d8d0968666a3b0Category=17.Chăm_sóc_cá_nhân.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/202594ea262744dd715064c8c88e2eaf2565.svg",
+                    "isActive": true,
+                    "name": "Chăm sóc cá nhân",
+                    "priority": 21,
+                    "slug": "nguoi-viet-dung-hang-viet",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10060,
+                    "code": "W1JY",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "W1JY",
+                            "code": "4KU72A",
+                            "description": "",
+                            "efficacyID": 299,
+                            "name": "Mặt nạ, thấm dầu",
+                            "slug": "mat-na-tham-dau",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "W1JY",
+                            "code": "2HR2AX",
+                            "description": "",
+                            "efficacyID": 298,
+                            "name": "Làm sạch",
+                            "slug": "lam-sach",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "W1JY",
+                            "code": "J61PGE",
+                            "description": "",
+                            "efficacyID": 278,
+                            "name": "Viêm da, vết thương ngoài da, sẹo",
+                            "slug": "viem-da-vet-thuong-ngoai-da-seo",
+                            "subCategoryCodes": [
+                                "LWT6"
+                            ]
+                        },
+                        {
+                            "categoryCode": "W1JY",
+                            "code": "EPGEQ1",
+                            "description": "",
+                            "efficacyID": 206,
+                            "name": "Chăm sóc da mặt",
+                            "slug": "cham-soc-da-mat",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202542e1705ba1a7cc127f6a2bf8bb60Category=Skin_product.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20258e7ba2e645be9665d701f68a50102379.svg",
+                    "isActive": true,
+                    "name": "Chăm sóc da",
+                    "priority": 33,
+                    "slug": "cham-soc-da",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10061,
+                    "code": "EKHR",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "EKHR",
+                            "code": "AU72AX",
+                            "description": "",
+                            "efficacyID": 293,
+                            "name": "Chăm sóc da đầu",
+                            "slug": "cham-soc-da-dau",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "EKHR",
+                            "code": "RJYJYJ",
+                            "description": "",
+                            "efficacyID": 207,
+                            "name": "Chăm sóc tóc",
+                            "slug": "cham-soc-toc",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025194164cff1e25effa05718f2a767Category=Hair_product.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20252fd0b1926175c02c7bea54db37fe1151.svg",
+                    "isActive": true,
+                    "name": "Chăm sóc tóc - da đầu",
+                    "priority": 34,
+                    "slug": "cham-soc-toc-da-dau",
+                    "systemDisplay": "BUYMED"
+                }
+            ],
+            "code": "DUOC_MY_PHAM",
+            "iconActiveUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/20259aed5ac14159896524569c6cbe54duocmypham_active.svg",
+            "iconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/2025c9d40edfb19bb493454ee4ab9031duocmypham.svg",
+            "isActive": true,
+            "label": "Dược Mỹ Phẩm",
+            "mapParams": {
+                "tag": "XGQD"
+            },
+            "url": "https://thuocsi.vn/products?tag=XGQD"
+        },
+        {
+            "categories": [
+                {
+                    "categoryID": 10048,
+                    "code": "7PCV",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "7PCV",
+                            "code": "CPGEQ1",
+                            "description": "",
+                            "efficacyID": 255,
+                            "name": "Test chẩn đoán khác",
+                            "slug": "sinh-pham-chuan-doan-nhanh",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "7PCV",
+                            "code": "XW961P",
+                            "description": "",
+                            "efficacyID": 254,
+                            "name": "Dụng cụ sơ cứu",
+                            "slug": "dung-cu-so-cap-cuu",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "7PCV",
+                            "code": "7JYJYJ",
+                            "description": "",
+                            "efficacyID": 193,
+                            "name": "Găng tay & Khẩu trang",
+                            "slug": "gang-tay-khau-trang",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "7PCV",
+                            "code": "484FW9",
+                            "description": "",
+                            "efficacyID": 191,
+                            "name": "Dụng cụ tiêm, chích, dẫn truyền",
+                            "slug": "kim-ong-chich",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "7PCV",
+                            "categoryID": 223,
+                            "code": "KAXHR2",
+                            "description": "",
+                            "efficacyID": 63,
+                            "isActive": true,
+                            "name": "Que thử thai, rụng trứng",
+                            "slug": "drgbcl-dung-cu-tranh-thai",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025489cdd8fd6b5339ea83074992229Category=1.Vật_tư_y_tế.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025cc2900f37c2e329e5bcfdeea284b2304_1.svg",
+                    "isActive": true,
+                    "name": "Vật tư y tế tiêu hao",
+                    "slug": "vat-tu-tieu-hao",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 240,
+                    "code": "PB2AXHR2AX",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "PB2AXHR2AX",
+                            "categoryID": 240,
+                            "code": "YLPGEQ",
+                            "description": null,
+                            "efficacyID": 74,
+                            "isActive": true,
+                            "name": "Miếng dán",
+                            "slug": "drgbcl-mieng-dan-tac-dong-toan-than"
+                        },
+                        {
+                            "categoryCode": "PB2AXHR2AX",
+                            "categoryID": 240,
+                            "code": "LPGEQ1",
+                            "description": null,
+                            "efficacyID": 10,
+                            "isActive": true,
+                            "name": "Dầu, cao xoa",
+                            "slug": "yx7gbc-tinh-dau-dau-xoa"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025ff2cb42a6c034275217bf855a265Category=12.Miếng_dán.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025fa583ae6a9a24a5686bc9dda412574170_1.svg",
+                    "isActive": true,
+                    "name": "Miếng dán, dầu, cao xoa",
+                    "priority": 11,
+                    "slug": "dau-xoa-cao-xoa",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10051,
+                    "code": "HCGE",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "HCGE",
+                            "code": "XEQ1PG",
+                            "description": "",
+                            "efficacyID": 281,
+                            "name": "Nước súc miệng",
+                            "slug": "nuoc-suc-mieng_vesinhsatkhuan",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "HCGE",
+                            "code": "BU72AX",
+                            "description": "",
+                            "efficacyID": 257,
+                            "name": "Vệ sinh tai, mũi, họng",
+                            "slug": "ve-sinh-tai-m-i-h-ng",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "HCGE",
+                            "code": "VBCV84",
+                            "description": "",
+                            "efficacyID": 256,
+                            "name": "Dung dịch nhỏ mắt",
+                            "slug": "dung-dich-nho-mat",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "HCGE",
+                            "categoryID": 225,
+                            "code": "DT61PG",
+                            "description": "",
+                            "efficacyID": 159,
+                            "isActive": true,
+                            "name": "Dung dịch sát khuẩn",
+                            "slug": "fy80t0-may-va-dung-cu-do-chi-so-can-nang",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "HCGE",
+                            "categoryID": 225,
+                            "code": "V961PG",
+                            "description": "",
+                            "efficacyID": 40,
+                            "isActive": true,
+                            "name": "Nước muối",
+                            "slug": "p3abcl-ho-tro-dieu-tri-ung-thu",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025ff01d4081635ced5121843c7b336Category=23.Vệ_sinh_sát_khuẩn.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20259c727cd4d5d056804ee75608be3154067_1.svg",
+                    "isActive": true,
+                    "name": "Vệ sinh, sát khuẩn",
+                    "priority": 28,
+                    "slug": "Vệsinhsátkhuẩn",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10053,
+                    "code": "KQV8",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "KQV8",
+                            "code": "DDBCV8",
+                            "description": "",
+                            "efficacyID": 294,
+                            "name": "Kính áp tròng",
+                            "slug": "kinh-ap-trong",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "KQV8",
+                            "code": "PJYJYJ",
+                            "description": "",
+                            "efficacyID": 265,
+                            "name": "Thiết bị theo dõi khác",
+                            "slug": "thiet-bi-theo-doi-khac",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "KQV8",
+                            "code": "UV84FW",
+                            "description": "",
+                            "efficacyID": 264,
+                            "name": "Máy và dụng cụ đo đường huyết",
+                            "slug": "may-va-dung-cu-do-duong-huyet",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "KQV8",
+                            "categoryID": 229,
+                            "code": "AV84FW",
+                            "description": "",
+                            "efficacyID": 77,
+                            "isActive": true,
+                            "name": "Nhiệt kế",
+                            "slug": "drgbcl-nhiet-ke",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "KQV8",
+                            "categoryID": 229,
+                            "code": "T84FW9",
+                            "description": "",
+                            "efficacyID": 73,
+                            "isActive": true,
+                            "name": "Máy và dụng cụ dùng trong hô hấp",
+                            "slug": "drgbcl-may-xong-dung-cu-dung-trong-ho-hap",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "KQV8",
+                            "categoryID": 229,
+                            "code": "BBCV84",
+                            "description": "",
+                            "efficacyID": 68,
+                            "isActive": true,
+                            "name": "Máy và dụng cụ đo huyết áp",
+                            "slug": "drgbcl-may-va-dung-cu-do-duong-huyet",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20258b1bf38b9d961a292c26589dadb7Category=24.Thiết_bị_theo_dõi.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025af956086a5e0653d191cd5db081f6136_1.svg",
+                    "isActive": true,
+                    "name": "Thiết bị theo dõi",
+                    "priority": 29,
+                    "slug": "theodoi",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10054,
+                    "code": "LWT6",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "LWT6",
+                            "code": "DAXHR2",
+                            "description": "",
+                            "efficacyID": 267,
+                            "name": "Sản phẩm khác",
+                            "slug": "cac-dung-cu-va-san-pham-khac",
+                            "subCategoryCodes": [
+                                "6WPGEQ1PGE"
+                            ]
+                        },
+                        {
+                            "categoryCode": "LWT6",
+                            "code": "AYJYJY",
+                            "description": "",
+                            "efficacyID": 266,
+                            "name": "Dụng cụ hỗ trợ điều trị & phục hồi",
+                            "slug": "dung-cu-ho-tro-dieu-tri-phuc-hoi",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025d5b5c7b855fe0368cf4407c9ff69Category=22.Dụng_cụ_y_tế.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20259d5536d41ffd7048d80383cb1df681839_1.svg",
+                    "isActive": true,
+                    "name": "Dụng cụ y tế và sản phẩm khác",
+                    "priority": 27,
+                    "slug": "dungcuyte",
+                    "systemDisplay": "BUYMED"
+                }
+            ],
+            "code": "THIET_BI_Y_TE",
+            "iconActiveUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/20253bb27284ded25c2bf69bd1b96e72thietbiyte_active.svg",
+            "iconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/2025e4051fe2b60fc999657422ff565ethietbiyte.svg",
+            "isActive": true,
+            "label": "Thiết Bị & Vật Tư Y Tế",
+            "mapParams": {
+                "tag": "B70T"
+            },
+            "url": "https://thuocsi.vn/products?tag=B70T"
+        },
+        {
+            "categories": [
+                {
+                    "categoryID": 273,
+                    "code": "6WPGEQ1PGE",
+                    "description": "Tất cả các sản phẩm không được bán thông dụng ở các nhà thuốc như các bộ kit chẩn đoán, thuốc ung thư, vaccine, các dung dịch dùng trong bệnh viện,... ",
+                    "efficacies": [
+                        {
+                            "categoryCode": "6WPGEQ1PGE",
+                            "code": "G1PGEQ",
+                            "description": "",
+                            "efficacyID": 296,
+                            "name": "Nước hoa, khử mùi",
+                            "slug": "nuoc-hoa-kh-mui",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "6WPGEQ1PGE",
+                            "code": "FGEQ1P",
+                            "description": "",
+                            "efficacyID": 295,
+                            "name": "Tắm, làm sạch",
+                            "slug": "tam-lam-sach",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "6WPGEQ1PGE",
+                            "code": "WV84FW",
+                            "description": "",
+                            "efficacyID": 205,
+                            "name": "Chăm sóc cơ thể",
+                            "slug": "cham-soc-co-the",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "6WPGEQ1PGE",
+                            "code": "QHR2AX",
+                            "description": "",
+                            "efficacyID": 204,
+                            "name": "Vệ sinh phụ nữ",
+                            "slug": "ve-sinh-ca-nhan",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "6WPGEQ1PGE",
+                            "categoryID": 230,
+                            "code": "72AXHR",
+                            "description": "",
+                            "efficacyID": 4,
+                            "isActive": true,
+                            "name": "Chăm sóc răng miệng",
+                            "slug": "yx7gbc-cham-soc-rang-mieng",
+                            "subCategoryCodes": [
+                                "LWT6",
+                                "6WPGEQ1PGE",
+                                "HCGE"
+                            ]
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025d0e88e50f0ebe8d8d0968666a3b0Category=17.Chăm_sóc_cá_nhân.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/202594ea262744dd715064c8c88e2eaf2565.svg",
+                    "isActive": true,
+                    "name": "Chăm sóc cá nhân",
+                    "priority": 21,
+                    "slug": "nguoi-viet-dung-hang-viet",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 223,
+                    "code": "8REQ1PGEQ1",
+                    "description": "<p><br></p>",
+                    "efficacies": [
+                        {
+                            "categoryCode": "8REQ1PGEQ1",
+                            "code": "L961PG",
+                            "description": "",
+                            "efficacyID": 307,
+                            "name": "Gel bôi trơn",
+                            "slug": "gel-boi-tron",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "8REQ1PGEQ1",
+                            "categoryID": 223,
+                            "code": "HR2AXH",
+                            "description": "",
+                            "efficacyID": 7,
+                            "isActive": true,
+                            "name": "Bao cao su",
+                            "slug": "yx7gbc-dung-dich-dung-ngoai",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20253835cc8f7e26d58685db9eb59d51Category=14.SK_giới_tính.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/202579b63be389049c0612d5ed6ba0df5431_1.svg",
+                    "isActive": true,
+                    "name": "Sức khỏe giới tính",
+                    "priority": 14,
+                    "slug": "than-tiet-nieu",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10055,
+                    "code": "X2KU",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "X2KU",
+                            "code": "2961PG",
+                            "description": "",
+                            "efficacyID": 271,
+                            "name": "Sữa dinh dưỡng",
+                            "slug": "sua-dinh-duong",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "X2KU",
+                            "code": "FFW961",
+                            "description": "",
+                            "efficacyID": 268,
+                            "name": "Hỗ trợ phục hồi sức khỏe",
+                            "slug": "ho-tro-phuc-hoi-suc-khoe",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "X2KU",
+                            "code": "GU72AX",
+                            "description": "",
+                            "efficacyID": 134,
+                            "name": "Bổ sung vitamin, khoáng chất",
+                            "slug": "aqfv2u-dinh-duong-vitamin-khoang-chat-xt2u1y",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025092dd5b0902edfa97d726a320347Category=20.Thực_phẩm_bổ_sung.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025f916d85e3880ff0ac5bfa98a5cc8165317_1.svg",
+                    "isActive": true,
+                    "name": "Thực phẩm bổ sung",
+                    "priority": 25,
+                    "slug": "Thucphambosung",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10056,
+                    "code": "CH72",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "CH72",
+                            "code": "7XHR2A",
+                            "description": "",
+                            "efficacyID": 274,
+                            "name": "Thức uống",
+                            "slug": "thuc-uong",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "CH72",
+                            "code": "6LPGEQ",
+                            "description": "",
+                            "efficacyID": 273,
+                            "name": "Thực phẩm",
+                            "slug": "thuc-pham-khac",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "CH72",
+                            "code": "4JYJYJ",
+                            "description": "",
+                            "efficacyID": 272,
+                            "name": "Bánh kẹo",
+                            "slug": "banh-keo",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/20257bb98dc6f13c9b48dec16a45cf7cCategory=19.Thực_phẩm_đồ_uống.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025ba0edc27dbd104dfb6e1f4379b2564267_1.svg",
+                    "isActive": true,
+                    "name": "Thực phẩm, đồ uống",
+                    "priority": 24,
+                    "slug": "thucphamdouong",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 240,
+                    "code": "PB2AXHR2AX",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "PB2AXHR2AX",
+                            "categoryID": 240,
+                            "code": "YLPGEQ",
+                            "description": null,
+                            "efficacyID": 74,
+                            "isActive": true,
+                            "name": "Miếng dán",
+                            "slug": "drgbcl-mieng-dan-tac-dong-toan-than"
+                        },
+                        {
+                            "categoryCode": "PB2AXHR2AX",
+                            "categoryID": 240,
+                            "code": "LPGEQ1",
+                            "description": null,
+                            "efficacyID": 10,
+                            "isActive": true,
+                            "name": "Dầu, cao xoa",
+                            "slug": "yx7gbc-tinh-dau-dau-xoa"
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025ff2cb42a6c034275217bf855a265Category=12.Miếng_dán.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025fa583ae6a9a24a5686bc9dda412574170_1.svg",
+                    "isActive": true,
+                    "name": "Miếng dán, dầu, cao xoa",
+                    "priority": 11,
+                    "slug": "dau-xoa-cao-xoa",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10060,
+                    "code": "W1JY",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "W1JY",
+                            "code": "4KU72A",
+                            "description": "",
+                            "efficacyID": 299,
+                            "name": "Mặt nạ, thấm dầu",
+                            "slug": "mat-na-tham-dau",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "W1JY",
+                            "code": "2HR2AX",
+                            "description": "",
+                            "efficacyID": 298,
+                            "name": "Làm sạch",
+                            "slug": "lam-sach",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "W1JY",
+                            "code": "J61PGE",
+                            "description": "",
+                            "efficacyID": 278,
+                            "name": "Viêm da, vết thương ngoài da, sẹo",
+                            "slug": "viem-da-vet-thuong-ngoai-da-seo",
+                            "subCategoryCodes": [
+                                "LWT6"
+                            ]
+                        },
+                        {
+                            "categoryCode": "W1JY",
+                            "code": "EPGEQ1",
+                            "description": "",
+                            "efficacyID": 206,
+                            "name": "Chăm sóc da mặt",
+                            "slug": "cham-soc-da-mat",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202542e1705ba1a7cc127f6a2bf8bb60Category=Skin_product.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20258e7ba2e645be9665d701f68a50102379.svg",
+                    "isActive": true,
+                    "name": "Chăm sóc da",
+                    "priority": 33,
+                    "slug": "cham-soc-da",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10061,
+                    "code": "EKHR",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "EKHR",
+                            "code": "AU72AX",
+                            "description": "",
+                            "efficacyID": 293,
+                            "name": "Chăm sóc da đầu",
+                            "slug": "cham-soc-da-dau",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "EKHR",
+                            "code": "RJYJYJ",
+                            "description": "",
+                            "efficacyID": 207,
+                            "name": "Chăm sóc tóc",
+                            "slug": "cham-soc-toc",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/2025194164cff1e25effa05718f2a767Category=Hair_product.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/20252fd0b1926175c02c7bea54db37fe1151.svg",
+                    "isActive": true,
+                    "name": "Chăm sóc tóc - da đầu",
+                    "priority": 34,
+                    "slug": "cham-soc-toc-da-dau",
+                    "systemDisplay": "BUYMED"
+                },
+                {
+                    "categoryID": 10062,
+                    "code": "RPCV",
+                    "description": "",
+                    "efficacies": [
+                        {
+                            "categoryCode": "RPCV",
+                            "code": "7CV84F",
+                            "description": "",
+                            "efficacyID": 301,
+                            "name": "Mẹ và bé",
+                            "slug": "me-va-be",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "RPCV",
+                            "code": "6XHR2A",
+                            "description": "",
+                            "efficacyID": 300,
+                            "name": "Đồ dùng gia đình",
+                            "slug": "do-dung-gia-dinh",
+                            "subCategoryCodes": []
+                        },
+                        {
+                            "categoryCode": "RPCV",
+                            "code": "1961PG",
+                            "description": "",
+                            "efficacyID": 297,
+                            "name": "Khăn giấy, tăm bông",
+                            "slug": "khan-giay-tam-bong",
+                            "subCategoryCodes": []
+                        }
+                    ],
+                    "icon": "https://storage.googleapis.com/thuocsi-live/internal/cms/202558a413d75300e730cd1dc3a779c001_Đồ_dùng_gia_đình,_mẹ_và_bé.svg",
+                    "iconCategory": "https://storage.googleapis.com/thuocsi-live/internal/cms/202534b90ca1c0fb11b79cf51eeafcea10240.svg",
+                    "isActive": true,
+                    "name": "Đồ dùng gia đình, mẹ và bé",
+                    "priority": 40,
+                    "slug": "do-dung-gia-dinh-me-va-be",
+                    "systemDisplay": "BUYMED"
+                }
+            ],
+            "code": "HANG_TIEU_DUNG",
+            "iconActiveUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/20255e28d64a7299d52deebf83dbf906hangtieudung_2acitve.svg",
+            "iconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/2025a2b56fe9c25066c7cd158fe11847hangtieudung.svg",
+            "isActive": true,
+            "label": "Hàng Tiêu Dùng",
+            "mapParams": {
+                "tag": "C81Y"
+            },
+            "url": "https://thuocsi.vn/products?tag=C81Y"
+        },
+        {
+            "badgeIconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/20250ca5cfbcf070784ad8dff2af973abadge_icon.svg",
+            "code": "BUYMED_TUYEN_CHON",
+            "iconActiveUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/20255f53c765d7b884b0cb65fea25346buymed_active.svg",
+            "iconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/202549462c469e209ee3256e88faf1fdbuymedtuyenchon.svg",
+            "isActive": true,
+            "label": "Buymed Tuyển Chọn",
+            "mapParams": {
+                "tag": "BMSE"
+            },
+            "url": "https://thuocsi.vn/products?tag=BMSE"
+        },
+        {
+            "badgeIconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/20256324d851532a7ef2809f43dde97bbadge_icon.svg",
+            "code": "COMBO_UU_DAI",
+            "iconActiveUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/2025c3533a17f3f0833bee2d15fdd736combo_active.svg",
+            "iconUrl": "https://cdn-gcs.thuocsi.vn/thuocsi-live/internal/cms/2025dd5b281edd5a06d03c046ab11fb2combouudai.svg",
+            "isActive": true,
+            "label": "Combo Ưu Đãi",
+            "mapParams": {
+                "currentTab": "combo-uu-dai",
+                "page": "1",
+                "tag": "ECLT"
+            },
+            "url": "https://thuocsi.vn/products?tag=ECLT&currentTab=combo-uu-dai&page=1"
+        }
+    ],
+    "message": "Query menubar successfully."
+}

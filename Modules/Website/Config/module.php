@@ -3,5 +3,5 @@
 return array (
   'name' => 'Website',
   'type' => 'shell',
-  'enabled' => true,
+  'enabled' => false,
 );

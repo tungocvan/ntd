@@ -1,0 +1,971 @@
+{
+    "status": "OK",
+    "data": [
+        {
+            "productName": "Tanakan 40mg ipsen (h/30v)",
+            "productId": 1703,
+            "skuCode": "MEDX.DMTS-IPS-TAN-001",
+            "slug": "medx-tanakan-40mg-ipsen-h30vdate-can",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/20259e9e95baadc1d0903c2fd54b5333",
+            "type": "NORMAL",
+            "priceEncrypted": "ty+iZkRiAtwkOWlgIhwTWg==",
+            "maxQuantity": 134,
+            "sellerName": "MEDX",
+            "sellerId": 1,
+            "sellerCode": "MEDX",
+            "sellerUrl": "/seller-products/cong-ty-tnhh-duoc-pham-medx",
+            "sellerSlug": "cong-ty-tnhh-duoc-pham-medx",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/web/static/images/logo_medx.png",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "limitMessage": "Đặt tối đa 134 sản phẩm",
+            "volume": "Hộp 2 vỉ x 15 viên nén",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "XT2U1Y"
+        },
+        {
+            "productName": "Hasanbest 500mg/5mg hasan (h/30v)",
+            "productId": 6379,
+            "skuCode": "MEDX.HAS-HAS-010",
+            "slug": "medx-hasanbest-500mg5mg-hasan-h30v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2024a8f5d3202b5263bf635b354352a9",
+            "type": "DEAL",
+            "discountPriceEncrypted": "fbt8Shg8fG6/yX0EE9bu1w==",
+            "priceEncrypted": "SZ5QMvXcF2mLOw1LOqVcXw==",
+            "discountPercent": 33,
+            "tags": [
+                {
+                    "name": "Khuyến mãi",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20246deafec288500e6d1bc960592902khuyenmai_1.svg",
+                    "url": "/deals",
+                    "code": "PROMOTION"
+                },
+                {
+                    "name": "Buymed Trợ Giá",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/2025b08079fea0256c0060f05e246faeGroup_1000004193.svg",
+                    "url": "/tag/buymed-tro-gia",
+                    "code": "FBLT"
+                }
+            ],
+            "maxQuantity": 336,
+            "sellerName": "HASAN",
+            "sellerId": 78,
+            "sellerCode": "9H3I4OQEM8",
+            "sellerUrl": "/flagship-store/hasan",
+            "sellerSlug": "hasan",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/20250d173330c204a5a49c8be95288f4",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 336 sản phẩm",
+            "volume": "Hộp 2 vỉ x 15 viên nén bao phim",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T",
+            "dealText": "Đã bán 1150",
+            "dealSoldPercent": 11
+        },
+        {
+            "productName": "Diamicron MR 30mg Servier (H/60v)",
+            "productId": 1255,
+            "skuCode": "MEDX.10774fb7c976",
+            "slug": "medx-diamicron-mr-30mg-servier-h60v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/20235be455e8ae6c1b3001a550277e13",
+            "type": "NORMAL",
+            "priceEncrypted": "55wS1A4WyeC6iYyiZ4WSOQ==",
+            "tags": [
+                {
+                    "name": "Theo Đơn Bệnh Viện",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/202689a55edb721903330e2eaff2dd7dGroup_1000004214_(1).svg",
+                    "url": "/tag/hang-benh-vien",
+                    "code": "hang-benh-vien"
+                }
+            ],
+            "maxQuantity": 94,
+            "sellerName": "Servier",
+            "sellerId": 6,
+            "sellerCode": "7STYACBVI4",
+            "sellerUrl": "/flagship-store/servier",
+            "sellerSlug": "servier",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/2023710254e83f80042ef2741282f7ae",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 94 sản phẩm",
+            "volume": "Hộp 2 vỉ x 30 viên nén bao phim phóng thích kéo dài",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T"
+        },
+        {
+            "productName": "Cefcenat cefuroxim 500mg caplets tipharco (h/50v)",
+            "productId": 15102,
+            "skuCode": "MEDX.CEF-TIP-300",
+            "slug": "medx-cefcenat-cefuroxim-500mg-caplets-tipharco-h50v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/202411b7ada1d4fa3b985a2acde8cba6",
+            "type": "DEAL",
+            "discountPriceEncrypted": "Q3iPnHekvoNJM7doc8L4+g==",
+            "priceEncrypted": "iENv1k3g7IR1ZF7Y61gNAQ==",
+            "discountPercent": 3,
+            "tags": [
+                {
+                    "name": "Khuyến mãi",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20246deafec288500e6d1bc960592902khuyenmai_1.svg",
+                    "url": "/deals",
+                    "code": "PROMOTION"
+                },
+                {
+                    "name": "Buymed Tuyển Chọn",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20264af4893f8740684096b5d9d9d855Group_1000004206.svg",
+                    "url": "/tag/bmse",
+                    "code": "BMSE"
+                }
+            ],
+            "maxQuantity": 143,
+            "sellerName": "MEDX",
+            "sellerId": 1,
+            "sellerCode": "MEDX",
+            "sellerUrl": "/seller-products/cong-ty-tnhh-duoc-pham-medx",
+            "sellerSlug": "cong-ty-tnhh-duoc-pham-medx",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/web/static/images/logo_medx.png",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "limitMessage": "Đặt tối đa 143 sản phẩm",
+            "volume": "Hộp 5 vỉ x 10 viên nén bao phim",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {
+                "productClassification": "High profit (20-40%)"
+            },
+            "isHighProfit": true,
+            "styleDisplay": {
+                "web": {
+                    "background": {
+                        "colors": [
+                            "#f8ae72",
+                            "#f8ae72",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                },
+                "app": {
+                    "background": {
+                        "colors": [
+                            "#f8ae72",
+                            "#f8ae72",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                }
+            },
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T",
+            "dealText": "Sắp hết hàng",
+            "dealSoldPercent": 84
+        },
+        {
+            "productName": "NewChoice LEVO-FEM FE Nam Hà (Lốc/10h/28v)",
+            "productId": 2019822,
+            "skuCode": "MEDX.9UY42AXH",
+            "slug": "medx-newchoice-levo-fem-fe-nam-ha-loc10h28v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/202607664b3dd7a4c141cdf6ce27df5b",
+            "type": "NORMAL",
+            "priceEncrypted": "Rxy/sQeEad/lpXhcUkyzPA==",
+            "labels": [
+                {
+                    "name": "Sản phẩm mới",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/2025e6cdf586502a9993dffa06505b83new.svg",
+                    "url": "/tag/sp-moi",
+                    "code": "V2U1"
+                }
+            ],
+            "maxQuantity": 907,
+            "sellerName": "MEDX",
+            "sellerId": 1,
+            "sellerCode": "MEDX",
+            "sellerUrl": "/seller-products/cong-ty-tnhh-duoc-pham-medx",
+            "sellerSlug": "cong-ty-tnhh-duoc-pham-medx",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/web/static/images/logo_medx.png",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "limitMessage": "Đặt tối đa 907 sản phẩm",
+            "volume": "Lốc 10 hộp x 28 viên nén bao phim",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T"
+        },
+        {
+            "productName": "Enterogermina gut defense 2 billion/5ml Opella (H/20o/5ml)",
+            "productId": 2019036,
+            "skuCode": "MEDX_INT.6WUFT61P",
+            "slug": "men-loi-khuan-ho-tro-tieu-hoa-enterogermina-gut-defense-2-billion-5ml-opella-h-20o-5ml-c55neu",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/20263373045b465dd450139c718266d1",
+            "type": "DEAL",
+            "discountPriceEncrypted": "tX7lFAvEaQZtc5ximx7P5g==",
+            "priceEncrypted": "LzNRvPGoiYdR90MPT0dPpQ==",
+            "discountPercent": 7,
+            "tags": [
+                {
+                    "name": "Khuyến mãi",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20246deafec288500e6d1bc960592902khuyenmai_1.svg",
+                    "url": "/deals",
+                    "code": "PROMOTION"
+                },
+                {
+                    "name": "CVM",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/2026d737ce723ad02c1a02ce8f163639tra_thuong_cvm_doc.svg",
+                    "url": "/tag/cvm-opella-202601",
+                    "code": "CVMOPL"
+                }
+            ],
+            "maxQuantity": 1974,
+            "sellerName": "Opella CVM ",
+            "sellerId": 80,
+            "sellerCode": "WACBVI4OQE",
+            "sellerUrl": "/flagship-store/opella-cvm",
+            "sellerSlug": "opella-cvm",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/2026fc43d54327a13ee053a9aa7f8bbd",
+            "sellerType": "TRADING",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 1974 sản phẩm",
+            "volume": "Hộp 20 ống x 5ml",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "XT2U1Y",
+            "dealText": "Đã bán 1026",
+            "dealSoldPercent": 34
+        },
+        {
+            "productName": "Panactol Paracetamol 500mg Khapharco (H/240v)",
+            "productId": 2015428,
+            "skuCode": "MEDX.VPKQ61PG",
+            "slug": "medx-panactol-paracetamol-500mg-khapharco-h240v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2026c112ba70ac2378672c75737b32b1",
+            "type": "DEAL",
+            "discountPriceEncrypted": "ykSCoHzaSUb3NJeenhb2Og==",
+            "priceEncrypted": "uNww/vMD1J3l4VEp6wA5GQ==",
+            "discountPercent": 1,
+            "tags": [
+                {
+                    "name": "Khuyến mãi",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20246deafec288500e6d1bc960592902khuyenmai_1.svg",
+                    "url": "/deals",
+                    "code": "PROMOTION"
+                },
+                {
+                    "name": "Buymed Tuyển Chọn",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20264af4893f8740684096b5d9d9d855Group_1000004206.svg",
+                    "url": "/tag/bmse",
+                    "code": "BMSE"
+                }
+            ],
+            "maxQuantity": 286,
+            "sellerName": "MEDX",
+            "sellerId": 1,
+            "sellerCode": "MEDX",
+            "sellerUrl": "/seller-products/cong-ty-tnhh-duoc-pham-medx",
+            "sellerSlug": "cong-ty-tnhh-duoc-pham-medx",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/web/static/images/logo_medx.png",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "limitMessage": "Đặt tối đa 286 sản phẩm",
+            "volume": "Hộp 20 vỉ x 12 viên nén",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {
+                "productClassification": "High profit (20-40%)"
+            },
+            "isHighProfit": true,
+            "styleDisplay": {
+                "web": {
+                    "background": {
+                        "colors": [
+                            "#f8ae72",
+                            "#f8ae72",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                },
+                "app": {
+                    "background": {
+                        "colors": [
+                            "#f8ae72",
+                            "#f8ae72",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                }
+            },
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "XT2U1Y",
+            "dealText": "Đã bán 2742",
+            "dealSoldPercent": 27
+        },
+        {
+            "productName": "Amoxicilin/ Acid clavulanic 875mg/125mg Buymed (Hộp/2vỉ/7viên)",
+            "productId": 1127079,
+            "skuCode": "MEDX.R48872AX",
+            "slug": "amoxicilin-acid-clavulanic-875-125mg-r",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/20268b8cd525d4f09d816745a3a38741",
+            "type": "DEAL",
+            "discountPriceEncrypted": "toHSkD/bkpnSjiBTNWXQYA==",
+            "priceEncrypted": "5NdetqXV0RRoZMsfUIVtTw==",
+            "discountPercent": 46,
+            "tags": [
+                {
+                    "name": "Khuyến mãi",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20246deafec288500e6d1bc960592902khuyenmai_1.svg",
+                    "url": "/deals",
+                    "code": "PROMOTION"
+                },
+                {
+                    "name": "Buymed Tuyển Chọn",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20264af4893f8740684096b5d9d9d855Group_1000004206.svg",
+                    "url": "/tag/bmse",
+                    "code": "BMSE"
+                }
+            ],
+            "maxQuantity": 1000,
+            "quantityInCart": 1,
+            "sellerName": "Buymed",
+            "sellerId": 7,
+            "sellerCode": "8DN9F1YACB",
+            "sellerUrl": "/flagship-store/hang-diem",
+            "sellerSlug": "hang-diem",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/2025e77ce23f299c85953f51c87764eb",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 1000 sản phẩm",
+            "volume": "Hộp 2 vỉ x 7 viên nén bao phim",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {
+                "productClassification": "Very high profit (40-70%)"
+            },
+            "isHighProfit": true,
+            "styleDisplay": {
+                "web": {
+                    "background": {
+                        "colors": [
+                            "#f5a447",
+                            "#f5a447",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                },
+                "app": {
+                    "background": {
+                        "colors": [
+                            "#f5a447",
+                            "#f5a447",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                }
+            },
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T",
+            "dealText": "Đã bán 37466",
+            "dealSoldPercent": 37
+        },
+        {
+            "productName": "Marvelon Organon (H/63v)",
+            "productId": 12040,
+            "skuCode": "MEDX.BAY-MER-003",
+            "slug": "medx-marvelon-bayer-h63v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2025cddb14116901873d402ad1b6665a",
+            "type": "NORMAL",
+            "priceEncrypted": "gQqNqkvoH+t6H1MajdO3FQ==",
+            "maxQuantity": 89,
+            "sellerName": "MEDX",
+            "sellerId": 1,
+            "sellerCode": "MEDX",
+            "sellerUrl": "/seller-products/cong-ty-tnhh-duoc-pham-medx",
+            "sellerSlug": "cong-ty-tnhh-duoc-pham-medx",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/web/static/images/logo_medx.png",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "limitMessage": "Đặt tối đa 89 sản phẩm",
+            "volume": "Hộp 3 vỉ x 21 viên nén",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T"
+        },
+        {
+            "productName": "Augmentin 1g gsk (h/14v)",
+            "productId": 2809,
+            "skuCode": "MEDX.DMTS-GSK-AUG-001",
+            "slug": "medx-augmentin-1g--gsk-h14v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2024aac1a7061643f23460000072a18b",
+            "type": "DEAL",
+            "discountPriceEncrypted": "Dit39gvSKt7krgytUlVIAg==",
+            "priceEncrypted": "+NxuKa5Y/Sa4K/q7EYggfg==",
+            "discountPercent": 2,
+            "tags": [
+                {
+                    "name": "Khuyến mãi",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20246deafec288500e6d1bc960592902khuyenmai_1.svg",
+                    "url": "/deals",
+                    "code": "PROMOTION"
+                },
+                {
+                    "name": "Buymed Trợ Giá",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/2025b08079fea0256c0060f05e246faeGroup_1000004193.svg",
+                    "url": "/tag/buymed-tro-gia",
+                    "code": "FBLT"
+                },
+                {
+                    "name": "Theo Đơn Bệnh Viện",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/202689a55edb721903330e2eaff2dd7dGroup_1000004214_(1).svg",
+                    "url": "/tag/hang-benh-vien",
+                    "code": "hang-benh-vien"
+                }
+            ],
+            "maxQuantity": 70,
+            "sellerName": "GSK Việt Nam",
+            "sellerId": 56,
+            "sellerCode": "DM8DN9F1YA",
+            "sellerUrl": "/flagship-store/gsk-viet-nam",
+            "sellerSlug": "gsk-viet-nam",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/20245a90e17b5c6fd6cc30128dd6d0b8",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 70 sản phẩm",
+            "volume": "Hộp 2 vỉ x 7 viên nén",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T",
+            "dealText": "Sắp hết hàng",
+            "dealSoldPercent": 71
+        },
+        {
+            "productName": "Dầu gió xanh thiên thảo (h/12c/12ml)",
+            "productId": 2021,
+            "skuCode": "MEDX.DMTS-THI-DAU-001",
+            "slug": "medx-dau-gio-xanh-thien-thao-h12c12ml",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2025c2dda68a853d153d392776d2a42f",
+            "type": "NORMAL",
+            "priceEncrypted": "VZapvIBxlhIdMKpuR/ONWQ==",
+            "maxQuantity": 69,
+            "sellerName": "MEDX",
+            "sellerId": 1,
+            "sellerCode": "MEDX",
+            "sellerUrl": "/seller-products/cong-ty-tnhh-duoc-pham-medx",
+            "sellerSlug": "cong-ty-tnhh-duoc-pham-medx",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/web/static/images/logo_medx.png",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "limitMessage": "Đặt tối đa 69 sản phẩm",
+            "volume": "Hộp 12 chai x 12ml",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "GU2U1Y"
+        },
+        {
+            "productName": "Augmentin 250/31.25mg gsk (h/12g)",
+            "productId": 1815,
+            "skuCode": "MEDX.DMTS-GSK-AUG-002",
+            "slug": "medx-augmentin-2503125mg-gsk-h12g",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/20247bd59a44ea5fe04d00f720265b57",
+            "type": "NORMAL",
+            "priceEncrypted": "m+R/C7igTdXcQEGwnpqnZw==",
+            "tags": [
+                {
+                    "name": "Buymed Trợ Giá",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/2025b08079fea0256c0060f05e246faeGroup_1000004193.svg",
+                    "url": "/tag/buymed-tro-gia",
+                    "code": "FBLT"
+                },
+                {
+                    "name": "Theo Đơn Bệnh Viện",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/202689a55edb721903330e2eaff2dd7dGroup_1000004214_(1).svg",
+                    "url": "/tag/hang-benh-vien",
+                    "code": "hang-benh-vien"
+                }
+            ],
+            "maxQuantity": 144,
+            "sellerName": "GSK Việt Nam",
+            "sellerId": 56,
+            "sellerCode": "DM8DN9F1YA",
+            "sellerUrl": "/flagship-store/gsk-viet-nam",
+            "sellerSlug": "gsk-viet-nam",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/20245a90e17b5c6fd6cc30128dd6d0b8",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 144 sản phẩm",
+            "volume": "Hộp 12 gói",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T",
+            "nearExpirationLabel": "Cận Date 11-02-2027"
+        },
+        {
+            "productName": "Dầu phật linh trường sơn (h/12c/5ml)",
+            "productId": 1813,
+            "skuCode": "MEDX.DMTS-TRU-PHA-001",
+            "slug": "medx-dau-phat-linh-truong-son-h12c5ml",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2025ff1ec9195342e5c14ede2428b118",
+            "type": "NORMAL",
+            "priceEncrypted": "Z+gKiKcpbOQOOx724x57Hg==",
+            "tags": [
+                {
+                    "name": "Buymed Trợ Giá",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/2025b08079fea0256c0060f05e246faeGroup_1000004193.svg",
+                    "url": "/tag/buymed-tro-gia",
+                    "code": "FBLT"
+                }
+            ],
+            "maxQuantity": 95,
+            "sellerName": "MEDX",
+            "sellerId": 1,
+            "sellerCode": "MEDX",
+            "sellerUrl": "/seller-products/cong-ty-tnhh-duoc-pham-medx",
+            "sellerSlug": "cong-ty-tnhh-duoc-pham-medx",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/web/static/images/logo_medx.png",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "limitMessage": "Đặt tối đa 95 sản phẩm",
+            "volume": "Lốc 12 chai x 5ml",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "GU2U1Y"
+        },
+        {
+            "productName": "Marvelon Organon (H/21v)",
+            "productId": 1421,
+            "skuCode": "MEDX.DMTS-BAY-MAR-001",
+            "slug": "medx-marvelon-bayer-h21v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2025500c446645c42fc17f9e1bfe1794",
+            "type": "NORMAL",
+            "priceEncrypted": "lP1lJeti7F0NswpoNvYXrw==",
+            "maxQuantity": 262,
+            "sellerName": "MEDX",
+            "sellerId": 1,
+            "sellerCode": "MEDX",
+            "sellerUrl": "/seller-products/cong-ty-tnhh-duoc-pham-medx",
+            "sellerSlug": "cong-ty-tnhh-duoc-pham-medx",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/web/static/images/logo_medx.png",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "limitMessage": "Đặt tối đa 262 sản phẩm",
+            "volume": "Hộp 1 vỉ x 21 viên nén",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T"
+        },
+        {
+            "productName": "Newchoice Nam Hà (H/25vỉ/28v)",
+            "productId": 1419,
+            "skuCode": "MEDX.DMTS-NAM-NEW-001",
+            "slug": "medx-vien-tranh-thai-new-choice-namha-h25v28v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2024a2ba6715514738be3d45c9fb7396",
+            "type": "NORMAL",
+            "priceEncrypted": "IhjyHIIUmKakqFYE3IJ35A==",
+            "tags": [
+                {
+                    "name": "Buymed Trợ Giá",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/2025b08079fea0256c0060f05e246faeGroup_1000004193.svg",
+                    "url": "/tag/buymed-tro-gia",
+                    "code": "FBLT"
+                }
+            ],
+            "maxQuantity": 81,
+            "sellerName": "MEDX",
+            "sellerId": 1,
+            "sellerCode": "MEDX",
+            "sellerUrl": "/seller-products/cong-ty-tnhh-duoc-pham-medx",
+            "sellerSlug": "cong-ty-tnhh-duoc-pham-medx",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/web/static/images/logo_medx.png",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "limitMessage": "Đặt tối đa 81 sản phẩm",
+            "volume": "Hộp 25 vỉ x 28 viên nén bao phim",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T"
+        },
+        {
+            "productName": "Augmentin 500/62.5mg gsk (h/12g)",
+            "productId": 1337,
+            "skuCode": "MEDX.DMTS-GSK-AUG-004",
+            "slug": "medx-augmentin-500625mg-gsk-h12g-date-can",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/20242a29a59695a93719ff4957a1a6c9",
+            "type": "DEAL",
+            "discountPriceEncrypted": "371285XF88eVx828X6cqaw==",
+            "priceEncrypted": "zRpZ5uX2CO5TqW9VqiFbAA==",
+            "discountPercent": 2,
+            "tags": [
+                {
+                    "name": "Khuyến mãi",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20246deafec288500e6d1bc960592902khuyenmai_1.svg",
+                    "url": "/deals",
+                    "code": "PROMOTION"
+                },
+                {
+                    "name": "Buymed Trợ Giá",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/2025b08079fea0256c0060f05e246faeGroup_1000004193.svg",
+                    "url": "/tag/buymed-tro-gia",
+                    "code": "FBLT"
+                },
+                {
+                    "name": "Theo Đơn Bệnh Viện",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/202689a55edb721903330e2eaff2dd7dGroup_1000004214_(1).svg",
+                    "url": "/tag/hang-benh-vien",
+                    "code": "hang-benh-vien"
+                }
+            ],
+            "maxQuantity": 99,
+            "sellerName": "GSK Việt Nam",
+            "sellerId": 56,
+            "sellerCode": "DM8DN9F1YA",
+            "sellerUrl": "/flagship-store/gsk-viet-nam",
+            "sellerSlug": "gsk-viet-nam",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/20245a90e17b5c6fd6cc30128dd6d0b8",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 99 sản phẩm",
+            "volume": "Hộp 12 gói",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T",
+            "dealText": "Sắp hết hàng",
+            "dealSoldPercent": 85,
+            "nearExpirationLabel": "Cận Date 31-03-2027"
+        },
+        {
+            "productName": "Augmentin 625mg GSK (H/14v)",
+            "productId": 1336,
+            "skuCode": "MEDX.DMTS-GSK-AUG-005",
+            "slug": "medx-augmentin-625mg-gsk-h14v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2026f769f7981afa7bb1d518a91c19d2",
+            "type": "NORMAL",
+            "priceEncrypted": "er4Th5NB9XNeKohUV4c1dA==",
+            "tags": [
+                {
+                    "name": "Buymed Trợ Giá",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/2025b08079fea0256c0060f05e246faeGroup_1000004193.svg",
+                    "url": "/tag/buymed-tro-gia",
+                    "code": "FBLT"
+                },
+                {
+                    "name": "Theo Đơn Bệnh Viện",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/202689a55edb721903330e2eaff2dd7dGroup_1000004214_(1).svg",
+                    "url": "/tag/hang-benh-vien",
+                    "code": "hang-benh-vien"
+                }
+            ],
+            "maxQuantity": 110,
+            "sellerName": "GSK Việt Nam",
+            "sellerId": 56,
+            "sellerCode": "DM8DN9F1YA",
+            "sellerUrl": "/flagship-store/gsk-viet-nam",
+            "sellerSlug": "gsk-viet-nam",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/20245a90e17b5c6fd6cc30128dd6d0b8",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 110 sản phẩm",
+            "volume": "Hộp 2 vỉ x 7 viên nén bao phim",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {},
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T"
+        },
+        {
+            "productName": "Cephalexin 500mg Buymed (C/200v)",
+            "productId": 1129214,
+            "skuCode": "MEDX.YH1FR2AX",
+            "slug": "medx-cephalexin-500mg-mebiphar-c200v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2026075e4c83726e4d79bd4ba4d81ed7",
+            "type": "DEAL",
+            "discountPriceEncrypted": "pY53GMeSSj0k0vDNiRBZxg==",
+            "priceEncrypted": "VTkMykIWSrGpL0yqAyYR0g==",
+            "discountPercent": 38,
+            "tags": [
+                {
+                    "name": "Khuyến mãi",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20246deafec288500e6d1bc960592902khuyenmai_1.svg",
+                    "url": "/deals",
+                    "code": "PROMOTION"
+                },
+                {
+                    "name": "Buymed Tuyển Chọn",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20264af4893f8740684096b5d9d9d855Group_1000004206.svg",
+                    "url": "/tag/bmse",
+                    "code": "BMSE"
+                }
+            ],
+            "maxQuantity": 1000,
+            "sellerName": "Buymed",
+            "sellerId": 7,
+            "sellerCode": "8DN9F1YACB",
+            "sellerUrl": "/flagship-store/hang-diem",
+            "sellerSlug": "hang-diem",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/2025e77ce23f299c85953f51c87764eb",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 1000 sản phẩm",
+            "volume": "Chai 200 viên nang cứng",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {
+                "productClassification": "Very high profit (40-70%)"
+            },
+            "isHighProfit": true,
+            "styleDisplay": {
+                "web": {
+                    "background": {
+                        "colors": [
+                            "#f5a447",
+                            "#f5a447",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                },
+                "app": {
+                    "background": {
+                        "colors": [
+                            "#f5a447",
+                            "#f5a447",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                }
+            },
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T",
+            "dealText": "Đang bán chạy",
+            "dealSoldPercent": 7
+        },
+        {
+            "productName": "Vitamin C 500mg Bidiphar Buymed (L/100v)",
+            "productId": 825641,
+            "skuCode": "MEDX.JJRQ2AXH",
+            "slug": "medx-vitamin-c-500-bidiphar-l100v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/2026b10ee50f5895016a2afd97ee2da0",
+            "type": "DEAL",
+            "discountPriceEncrypted": "SPJwGKW7vWAcTytb1KBJgg==",
+            "priceEncrypted": "4qw4DQHvVCa3OR3eMrCbPQ==",
+            "discountPercent": 40,
+            "tags": [
+                {
+                    "name": "Khuyến mãi",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20246deafec288500e6d1bc960592902khuyenmai_1.svg",
+                    "url": "/deals",
+                    "code": "PROMOTION"
+                },
+                {
+                    "name": "Buymed Tuyển Chọn",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20264af4893f8740684096b5d9d9d855Group_1000004206.svg",
+                    "url": "/tag/bmse",
+                    "code": "BMSE"
+                }
+            ],
+            "maxQuantity": 265,
+            "sellerName": "Buymed",
+            "sellerId": 7,
+            "sellerCode": "8DN9F1YACB",
+            "sellerUrl": "/flagship-store/hang-diem",
+            "sellerSlug": "hang-diem",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/2025e77ce23f299c85953f51c87764eb",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 265 sản phẩm",
+            "volume": "Chai 100 viên nang cứng",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {
+                "productClassification": "Very high profit (40-70%)"
+            },
+            "isHighProfit": true,
+            "styleDisplay": {
+                "web": {
+                    "background": {
+                        "colors": [
+                            "#f5a447",
+                            "#f5a447",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                },
+                "app": {
+                    "background": {
+                        "colors": [
+                            "#f5a447",
+                            "#f5a447",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                }
+            },
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "LALT0T",
+            "dealText": "Đang bán chạy",
+            "dealSoldPercent": 9
+        },
+        {
+            "productName": "Viêm gan vg-5 danapha (h/40v)",
+            "productId": 11376,
+            "skuCode": "MEDX.DNP-VG5-028",
+            "slug": "medx-viem-gan-vg-5-danapha-h40v",
+            "imageUrl": "https://gcs.buymed.com/thuocsi-live/images/202110a64e76b5cf40ceebe3c4cc2541",
+            "type": "NORMAL",
+            "priceEncrypted": "E6zYdrkPR7Yime9chktwww==",
+            "tags": [
+                {
+                    "name": "Buymed Tuyển Chọn",
+                    "iconUrl": "https://gcs.buymed.com/thuocsi-live/internal/cms/20264af4893f8740684096b5d9d9d855Group_1000004206.svg",
+                    "url": "/tag/bmse",
+                    "code": "BMSE"
+                }
+            ],
+            "maxQuantity": 539,
+            "sellerName": "DƯỢC DANAPHA",
+            "sellerId": 77,
+            "sellerCode": "8G2UUUUUUU",
+            "sellerUrl": "/flagship-store/gian-hang-danapha-chinh-hang",
+            "sellerSlug": "gian-hang-danapha-chinh-hang",
+            "sellerAvatar": "https://gcs.buymed.com/thuocsi-live/images/2025e7e3b584319d760739c80f8272ea",
+            "sellerType": "ENTERPRISE",
+            "sellerClass": "INTERNAL",
+            "isVendorStore": true,
+            "limitMessage": "Đặt tối đa 539 sản phẩm",
+            "volume": "Hộp 4 vỉ x 10 viên nén bao phim",
+            "eventSource": "sku-tag",
+            "trackingMetadata": {
+                "productClassification": "High profit (20-40%)"
+            },
+            "isHighProfit": true,
+            "styleDisplay": {
+                "web": {
+                    "background": {
+                        "colors": [
+                            "#f8ae72",
+                            "#f8ae72",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                },
+                "app": {
+                    "background": {
+                        "colors": [
+                            "#f8ae72",
+                            "#f8ae72",
+                            "#ffffff"
+                        ],
+                        "angle": 180,
+                        "percentsColor": [
+                            0,
+                            0.5,
+                            1
+                        ]
+                    }
+                }
+            },
+            "isIngredientSpecial": false,
+            "sellerCategoryCode": "AQFV2U",
+            "sellerSubCategoryCode": "XT2U1Y"
+        }
+    ],
+    "message": "Search product successfully.",
+    "total": 32954
+}
