@@ -3,5 +3,5 @@
 return array (
   'name' => 'Product',
   'type' => 'domain',
-  'enabled' => true,
+  'enabled' => false,
 );

@@ -18,7 +18,7 @@
     @yield('css')
     <script>
         window.CHAT_CONFIG_HOST = "{{ env('NODEJS_SERVER_URL') }}";
-        window.CHAT_CONFIG_PORT = "{{ env('NODEJS_SERVER_PORT') ?? 6002 }}";
+        window.CHAT_CONFIG_PORT = "{{ env('NODEJS_SERVER_PORT') ?? 6001 }}";
     </script>
     {{-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> --}}
     @vite(['resources/css/tailwind.css', 'resources/js/tailwind.js'])

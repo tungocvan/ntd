@@ -5,7 +5,8 @@ window.io = io;
 
 const SOCKET_HOST =
     window.CHAT_CONFIG_HOST ||
-    `${window.location.hostname}:6001`;
+    `${window.location.hostname}:${window.CHAT_CONFIG_PORT}`;
+
 
 /**
  * SINGLE SOCKET INSTANCE
