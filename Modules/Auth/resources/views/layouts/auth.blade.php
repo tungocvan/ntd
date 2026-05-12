@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'TRƯỜNG TIỂU HỌC NGUYỄN THỊ ĐỊNH')</title>
     @yield('css')
+    <script>
+        window.CHAT_CONFIG_HOST = "{{ env('NODEJS_SERVER_URL') }}";
+        window.CHAT_CONFIG_PORT = "{{ env('NODEJS_SERVER_PORT') ?? 6001 }}";
+    </script>
     @vite(['resources/css/tailwind.css', 'resources/js/tailwind.js'])
     @stack('styles')
     @livewireStyles
