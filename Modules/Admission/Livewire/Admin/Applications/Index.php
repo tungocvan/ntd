@@ -64,7 +64,8 @@ class Index extends Component
             })
             ->when($this->filterStatus, fn($q) => $q->where('status', $this->filterStatus))
             ->when($this->filterClass, fn($q) => $q->where('loai_lop_dang_ky', $this->filterClass))
-            ->latest();
+            ->orderByDesc('updated_at')
+            ->orderByDesc('created_at');
 
         if ($this->perPage === 'all') {
             return $query->get();

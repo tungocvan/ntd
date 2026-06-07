@@ -1,0 +1,13 @@
+diff --git a/Modules/Admission/Models/AdmissionApplication.php b/Modules/Admission/Models/AdmissionApplication.php
+index b060694..cd4bd06 100644
+--- a/Modules/Admission/Models/AdmissionApplication.php
++++ b/Modules/Admission/Models/AdmissionApplication.php
+@@ -118,7 +118,7 @@ protected static function booted()
+ 
+             // Khi chuyển sang approved
+             if ($model->wasChanged('status') && $model->status === 'approved') {
+-                //  \Log::info('updated DEBUG START');
++                \Log::info('updated DEBUG START');
+                 \Modules\Admission\Jobs\GenerateAdmissionPdfJob::dispatch($model->id);
+             }
+         });
