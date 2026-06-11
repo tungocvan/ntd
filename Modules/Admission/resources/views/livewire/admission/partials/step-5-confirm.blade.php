@@ -43,7 +43,7 @@
     </div>
     {{-- Sắp xếp lớp --}}
     @can('create_admission')
-    @if ($form['Status'] === 'approved')
+    @if ( isset($form['Status']) && $form['Status'] === 'approved')
     <h2 class="text-xl font-semibold text-gray-800">
         Sắp xếp vào lớp
     </h2>

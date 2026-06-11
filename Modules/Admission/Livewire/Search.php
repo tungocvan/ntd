@@ -54,7 +54,7 @@ class Search extends Component
         if (!$this->app) {
             $this->message = 'Không tìm thấy hồ sơ.';
             return;
-        }
+        } 
       // dd($this->app);
         $birthPassword = $this->app['ngay_sinh']
             ? \Carbon\Carbon::parse($this->app['ngay_sinh'])->format('dmY')
