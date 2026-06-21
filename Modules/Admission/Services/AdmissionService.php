@@ -75,17 +75,17 @@ class AdmissionService
             'que_quan'           => $formData['QueQuanPx'] . ", " . $formData['QueQuanTt'] ?? '',
 
             // 2. Địa chỉ
-            'ttsn'               => $formData['TTSN'] ?? null,
-            'ttd'                => $formData['TTD'] ?? null,
-            'ttkp'               => $formData['TTKP'] ?? null,
-            'ttpx'               => $formData['TTPX'] ?? null,
-            'ttttp'              => $formData['TTTTP'] ?? null,
-            'htsn'               => $formData['HTSN'] ?? null,
-            'htd'                => $formData['HTD'] ?? null,
-            'htkp'               => $formData['HTKP'] ?? null,
-            'htpx'               => $formData['HTPX'] ?? null,
-            'htttp'              => $formData['HTTTP'] ?? null,
-            'noi_o_hien_tai'     => $formData['NoiOHienTai'] ?? null,
+            'ttsn'               => $formData['TTSN'] ?? '',
+            'ttd'                => $formData['TTD'] ?? '',
+            'ttkp'               => $formData['TTKP'] ?? '',
+            'ttpx'               => $formData['TTPX'] ?? '',
+            'ttttp'              => $formData['TTTTP'] ?? '',
+            'htsn'               => $formData['HTSN'] ?? '',
+            'htd'                => $formData['HTD'] ?? '',
+            'htkp'               => $formData['HTKP'] ?? '',
+            'htpx'               => $formData['HTPX'] ?? '',
+            'htttp'              => $formData['HTTTP'] ?? '',
+            'noi_o_hien_tai'     => $formData['NoiOHienTai'] ?? '',
 
             // 3. Thông tin bổ sung (Ép kiểu Integer để tránh lỗi 1366)
             'o_chung_voi'        => $formData['OChungVoi'] ?? null,
