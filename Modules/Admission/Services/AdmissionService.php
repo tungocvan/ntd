@@ -33,23 +33,18 @@ class AdmissionService
     {
         return DB::transaction(function () use ($formData) {
 
-            // Chuẩn hóa dữ liệu
             $data = $this->prepareData($formData);
             $data['status'] = $formData['Status'] ?? '';
 
-            // Tạo bản ghi trước
-            $application = AdmissionApplication::create($data);
+            $nextId = (AdmissionApplication::lockForUpdate()->max('id') ?? 0) + 1;
 
-            // Sinh mã hồ sơ dựa trên ID
-            $application->mhs = sprintf(
+            $data['mhs'] = sprintf(
                 'NTD%s%04d',
                 now()->year,
-                $application->id
+                $nextId
             );
 
-            $application->save();
-
-            return $application->fresh();
+            return AdmissionApplication::create($data);
         });
     }
 
