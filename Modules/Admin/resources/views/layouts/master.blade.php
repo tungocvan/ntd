@@ -7,6 +7,7 @@
     @php
         use Modules\Admin\Models\Setting;
         $favicon = Setting::getValue('site_favicon');
+
     @endphp
     @if ($favicon)
         <link rel="icon" type="image/png" href="{{ asset('storage/' . $favicon) }}">

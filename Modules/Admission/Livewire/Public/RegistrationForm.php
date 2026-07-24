@@ -307,6 +307,7 @@ class RegistrationForm extends Component
                 'NguoiLamDon' => $app->nguoi_lam_don ?? '',
             ];
 
+
             // Load wards nếu có
             $this->updated('form.TTTTP');
             $this->updated('form.HTTTP');
@@ -480,7 +481,7 @@ class RegistrationForm extends Component
 
             // ================= EDIT / CREATE =================
             if ($this->isEdit) {
-               
+
                 if($data['Lop'] !=='' && $data['Gvcn'] !=='') {
                     $data['Status'] = 'approved';
                 }else{

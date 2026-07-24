@@ -196,7 +196,7 @@ focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all">
                             </td>
 
                             <td class="px-6 py-4 text-gray-500">
-                                {{ $item->ngay_sinh->format('d/m/Y') }}
+                                {{ $item->ngay_sinh ? \Carbon\Carbon::parse($item->ngay_sinh)->format('d/m/Y') : '' }}
                             </td>
 
                             <td class="px-6 py-4">

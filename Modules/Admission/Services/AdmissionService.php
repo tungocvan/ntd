@@ -53,12 +53,12 @@ class AdmissionService
     {
         //$formData['KhaNangHocSinoh'] = (array) ($f
 
-
+        $date = str_replace('/', '-', trim($formData['NgaySinh']));
         $data = [
             // 1. Thông tin học sinh
             'ho_va_ten_hoc_sinh' => $formData['HoVaTenHocSinh'] ?? null,
             'gioi_tinh'          => $formData['GioiTinh'] ?? null,
-            'ngay_sinh'          => !empty($formData['NgaySinh']) ?  Carbon::parse($formData['NgaySinh'])->format('d-m-Y')  : null,
+            'ngay_sinh' => !empty($date) ? $this->normalizeDate($date): null,
             'dan_toc'            => $formData['DanToc'] ?? null,
             'ma_dinh_danh'       => $formData['MaDinhDanh'] ?? null,
             'quoc_tich'          => $formData['QuocTich'] ?? null,
@@ -359,5 +359,23 @@ class AdmissionService
         // RETURN DOWNLOAD
         // ======================
         return response()->download($tempFile)->deleteFileAfterSend(true);
+    }
+    private function normalizeDate($date)
+    {
+        if (empty($date)) {
+            return null;
+        }
+
+        $date = trim($date);
+        $date = str_replace('/', '-', $date);
+
+        foreach (['d-m-Y', 'Y-m-d', 'd-m-Y H:i:s', 'Y-m-d H:i:s'] as $format) {
+            try {
+                return Carbon::createFromFormat($format, $date)->format('Y-m-d');
+            } catch (\Exception $e) {
+            }
+        }
+
+        return Carbon::parse($date)->format('Y-m-d');
     }
 }
