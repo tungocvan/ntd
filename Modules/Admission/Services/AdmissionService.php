@@ -7,24 +7,50 @@ use Illuminate\Support\Str;
 use Carbon\Carbon;
 use Endroid\QrCode\Builder\Builder;
 use Endroid\QrCode\Writer\PngWriter;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
+
+// use Illuminate\Support\Facades\Storage;
 
 class AdmissionService
 {
     /**
      * TẠO MỚI HỒ SƠ
      */
-    public function createRegistration(array $formData)
+    // public function createRegistration(array $formData)
+    // {
+    //     // Tạo mã hồ sơ tự động
+    //     $mhs = 'NTD' . date('Y') . str_pad(AdmissionApplication::count() + 1, 4, '0', STR_PAD_LEFT);
+
+    //     // Chuẩn hóa dữ liệu trước khi lưu
+    //     $data = $this->prepareData($formData);
+    //     $data['mhs'] = $mhs;
+    //     $data['status'] = $formData['Status'] ?? '';
+
+    //     return AdmissionApplication::create($data);
+    // }
+
+    public function createRegistration(array $formData): AdmissionApplication
     {
-        // Tạo mã hồ sơ tự động
-        $mhs = 'NTD' . date('Y') . str_pad(AdmissionApplication::count() + 1, 4, '0', STR_PAD_LEFT);
+        return DB::transaction(function () use ($formData) {
 
-        // Chuẩn hóa dữ liệu trước khi lưu
-        $data = $this->prepareData($formData);
-        $data['mhs'] = $mhs;
-        $data['status'] = $formData['Status'] ?? '';
+            // Chuẩn hóa dữ liệu
+            $data = $this->prepareData($formData);
+            $data['status'] = $formData['Status'] ?? '';
 
-        return AdmissionApplication::create($data);
+            // Tạo bản ghi trước
+            $application = AdmissionApplication::create($data);
+
+            // Sinh mã hồ sơ dựa trên ID
+            $application->mhs = sprintf(
+                'NTD%s%04d',
+                now()->year,
+                $application->id
+            );
+
+            $application->save();
+
+            return $application->fresh();
+        });
     }
 
     /**
@@ -58,7 +84,7 @@ class AdmissionService
             // 1. Thông tin học sinh
             'ho_va_ten_hoc_sinh' => $formData['HoVaTenHocSinh'] ?? null,
             'gioi_tinh'          => $formData['GioiTinh'] ?? null,
-            'ngay_sinh' => !empty($date) ? $this->normalizeDate($date): null,
+            'ngay_sinh' => !empty($date) ? $this->normalizeDate($date) : null,
             'dan_toc'            => $formData['DanToc'] ?? null,
             'ma_dinh_danh'       => $formData['MaDinhDanh'] ?? null,
             'quoc_tich'          => $formData['QuocTich'] ?? null,
