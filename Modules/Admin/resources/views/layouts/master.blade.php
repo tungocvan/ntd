@@ -7,6 +7,7 @@
     @php
         use Modules\Admin\Models\Setting;
         $favicon = Setting::getValue('site_favicon');
+        $siteName = \Modules\Website\Models\Setting::getValue('site_name', 'TRƯỜNG TIỂU HỌC NGUYỄN THỊ ĐỊNH');
 
     @endphp
     @if ($favicon)
@@ -14,7 +15,7 @@
     @else
         <link rel="icon" href="/favicon.ico" />
     @endif
-    <title>@yield('title', 'TRƯỜNG TIỂU HỌC NGUYỄN THỊ ĐỊNH')</title>
+    <title>@yield('title', $siteName)</title>
     {!! Setting::getValue('header_script') !!}
     @yield('css')
     <script>
