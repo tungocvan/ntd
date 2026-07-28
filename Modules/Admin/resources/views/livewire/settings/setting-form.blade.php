@@ -93,7 +93,7 @@
                                         <img src="{{ $new_logo->temporaryUrl() }}" class="h-24 w-auto object-contain rounded-lg border border-gray-200 p-2 bg-gray-50">
                                         <div class="absolute top-0 right-0 -mt-2 -mr-2 bg-green-500 text-white text-xs px-1.5 py-0.5 rounded-full">New</div>
                                     @elseif($site_logo)
-                                        <img src="{{ asset('storage/'.$site_logo) }}" class="h-24 w-auto object-contain rounded-lg border border-gray-200 p-2 bg-gray-50">
+                                        <img src="/storage/{{ ltrim($site_logo, '/') }}" class="h-24 w-auto object-contain rounded-lg border border-gray-200 p-2 bg-gray-50">
                                     @else
                                         <div class="h-24 w-24 bg-gray-100 rounded-lg flex items-center justify-center text-xs text-gray-400 border border-dashed border-gray-300">No Logo</div>
                                     @endif
@@ -121,7 +121,7 @@
                                             Icon mới
                                         </div>
                                     @elseif($site_favicon)
-                                        <img src="{{ asset('storage/'.$site_favicon) }}" class="h-12 w-12 object-contain rounded border border-gray-200 p-1">
+                                        <img src="/storage/{{ ltrim($site_favicon, '/') }}" class="h-12 w-12 object-contain rounded border border-gray-200 p-1">
                                     @else
                                         <div class="h-12 w-12 bg-gray-100 rounded flex items-center justify-center text-xs text-gray-400 border border-dashed">No Icon</div>
                                     @endif
@@ -294,7 +294,7 @@
                                                     @if(!empty($dynamicValues[$setting->id]) && is_array($dynamicValues[$setting->id]))
                                                         @foreach($dynamicValues[$setting->id] as $index => $imagePath)
                                                             <div class="group relative aspect-square bg-white border rounded-lg overflow-hidden shadow-sm">
-                                                                <img src="{{ asset('storage/'.$imagePath) }}" class="w-full h-full object-cover">
+                                                                <img src="/storage/{{ ltrim($imagePath, '/') }}" class="w-full h-full object-cover">
 
                                                                 <button type="button"
                                                                     wire:click="removeGalleryImage({{ $setting->id }}, {{ $index }})"
@@ -343,7 +343,7 @@
                                             <div class="flex items-start gap-6 bg-gray-50 p-3 rounded-lg border border-gray-100">
                                                 <div class="shrink-0">
                                                     @if($setting->value)
-                                                        <img src="{{ asset('storage/'.$setting->value) }}" class="h-20 w-20 object-cover rounded border bg-white" title="Ảnh hiện tại">
+                                                    <img src="/storage/{{ ltrim($setting->value, '/') }}" class="h-20 w-20 object-cover rounded border bg-white" title="Ảnh hiện tại">
                                                     @else
                                                         <div class="h-20 w-20 flex items-center justify-center bg-gray-200 rounded text-xs text-gray-500">Trống</div>
                                                     @endif
