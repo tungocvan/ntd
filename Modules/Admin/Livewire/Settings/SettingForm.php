@@ -6,6 +6,7 @@ use Livewire\Component;
 use Livewire\WithFileUploads;
 use Modules\Website\Models\Setting;
 use Illuminate\Support\Str;
+use Illuminate\Validation\ValidationException;
 
 class SettingForm extends Component
 {
@@ -49,6 +50,48 @@ class SettingForm extends Component
     ];
 
     public $activeTab = 'general';
+
+    /**
+     * Kiểm tra favicon ngay khi người dùng chọn file.
+     */
+    public function updatedNewFavicon()
+    {
+        $this->validateFavicon();
+    }
+
+    /**
+     * Favicon chỉ nhận PNG/ICO, tối đa 512 KB và đúng kích thước phổ biến.
+     */
+    protected function validateFavicon(): void
+    {
+        $this->validate([
+            'new_favicon' => ['nullable', 'file', 'mimes:png,ico', 'max:512'],
+        ], [
+            'new_favicon.file' => 'Icon tải lên không hợp lệ.',
+            'new_favicon.mimes' => 'Icon phải có định dạng PNG hoặc ICO.',
+            'new_favicon.max' => 'Dung lượng icon không được vượt quá 512 KB.',
+        ]);
+
+        if (!$this->new_favicon) {
+            return;
+        }
+
+        $imageSize = @getimagesize($this->new_favicon->getRealPath());
+        $width = $imageSize[0] ?? null;
+        $height = $imageSize[1] ?? null;
+
+        if (!$width || !$height) {
+            throw ValidationException::withMessages([
+                'new_favicon' => 'Không thể đọc file icon. Vui lòng chọn file PNG hoặc ICO hợp lệ.',
+            ]);
+        }
+
+        if ($width !== $height || !in_array($width, [32, 64], true)) {
+            throw ValidationException::withMessages([
+                'new_favicon' => "Icon phải là ảnh vuông 32x32 hoặc 64x64 pixel (file hiện tại: {$width}x{$height}).",
+            ]);
+        }
+    }
 
     /**
      * Khởi tạo dữ liệu
@@ -161,12 +204,18 @@ class SettingForm extends Component
      */
     public function save()
     {
+        // Kiểm tra trước khi ghi bất kỳ cấu hình nào vào database.
+        $this->validateFavicon();
+
         // ------------------------------------
         // 1. LƯU SYSTEM SETTINGS
         // ------------------------------------
         foreach ($this->settings as $key => $value) {
             Setting::setValue($key, $value);
         }
+
+        // Cập nhật tên ở sidebar ngay sau khi lưu mà không cần tải lại trang.
+        $this->dispatch('site-name-updated');
 
         // Upload Logo
         if ($this->new_logo) {

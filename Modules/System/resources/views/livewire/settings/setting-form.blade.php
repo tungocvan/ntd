@@ -116,8 +116,10 @@
                             <label class="block text-sm font-medium leading-6 text-gray-900">Favicon (Icon trên tab trình duyệt)</label>
                             <div class="mt-2 flex items-center gap-x-8">
                                 <div class="shrink-0 relative">
-                                    @if($new_favicon)
-                                        <img src="{{ $new_favicon->temporaryUrl() }}" class="h-12 w-12 object-contain rounded border border-gray-200 p-1">
+                                    @if($new_favicon && !$errors->has('new_favicon'))
+                                        <div class="h-12 w-12 bg-indigo-50 rounded flex items-center justify-center text-xs font-medium text-indigo-600 border border-indigo-200">
+                                            Icon mới
+                                        </div>
                                     @elseif($site_favicon)
                                         <img src="{{ asset('storage/'.$site_favicon) }}" class="h-12 w-12 object-contain rounded border border-gray-200 p-1">
                                     @else
@@ -128,10 +130,13 @@
                                 <div>
                                     <label for="favicon-upload" class="rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 cursor-pointer transition">
                                         <span>Chọn icon mới</span>
-                                        <input id="favicon-upload" type="file" wire:model="new_favicon" class="sr-only" accept="image/png, image/x-icon">
+                                        <input id="favicon-upload" type="file" wire:model="new_favicon" class="sr-only" accept=".png,.ico,image/png,image/x-icon,image/vnd.microsoft.icon">
                                     </label>
-                                    <p class="mt-2 text-xs leading-5 text-gray-500">Ảnh vuông. Kích thước 32x32 hoặc 64x64.</p>
+                                    <p class="mt-2 text-xs leading-5 text-gray-500">PNG hoặc ICO, ảnh vuông 32x32 hoặc 64x64, tối đa 512 KB.</p>
                                     <div wire:loading wire:target="new_favicon" class="text-xs text-indigo-600 mt-1">Đang tải ảnh lên...</div>
+                                    @error('new_favicon')
+                                        <p class="mt-2 text-xs font-medium text-red-600">{{ $message }}</p>
+                                    @enderror
                                 </div>
                             </div>
                         </div>

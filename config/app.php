@@ -108,6 +108,22 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | School information
+    |--------------------------------------------------------------------------
+    */
+
+    'school_managing_agency' => env(
+        'SCHOOL_MANAGING_AGENCY',
+        'ỦY BAN NHÂN DÂN PHƯỜNG TÂN THUẬN'
+    ),
+
+    'school_login_description' => env(
+        'SCHOOL_LOGIN_DESCRIPTION',
+        'Hệ thống quản trị & đăng nhập giáo viên / quản lý'
+    ),
+
+    /*
+    |--------------------------------------------------------------------------
     | Maintenance Mode Driver
     |--------------------------------------------------------------------------
     |

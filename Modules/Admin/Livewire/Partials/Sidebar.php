@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Cache;
 use Modules\Admin\Models\Setting;
 use Modules\Admin\Support\ThemeManager;
+use Livewire\Attributes\On;
 
 class Sidebar extends Component
 {
@@ -18,6 +19,9 @@ class Sidebar extends Component
     public $theme = [];
     public $sidebarOpen = true;
     public $titleSidebar = '';
+    public $schoolPrefix = '';
+    public $schoolDisplayName = '';
+    public $schoolAcronym = '';
 
     // ======================
     // DEFAULT THEME (SAFE FALLBACK)
@@ -69,7 +73,7 @@ class Sidebar extends Component
     {
         $this->menus = $service->getMenus();
 
-        $this->titleSidebar = Setting::getValue('title_sidebar') ;
+        $this->loadSchoolName();
         // $config = File::getRequire(
         //     base_path('Modules/Admin/config/sidebar.php')
         // );
@@ -87,6 +91,38 @@ class Sidebar extends Component
          $this->theme = $themeManager->get();
 
         $this->sidebarOpen = session('sidebar_open', true);
+    }
+
+    /**
+     * Đồng bộ tên trường và chữ viết tắt từ cấu hình site_name.
+     */
+    #[On('site-name-updated')]
+    public function loadSchoolName(): void
+    {
+        $schoolName = trim((string) Setting::getValue(
+            'site_name',
+            'TRƯỜNG TIỂU HỌC NGUYỄN THỊ ĐỊNH'
+        ));
+
+        $this->titleSidebar = $schoolName;
+        $this->schoolPrefix = '';
+        $this->schoolDisplayName = $schoolName;
+
+        if (preg_match('/^(TRƯỜNG\s+(?:TIỂU HỌC|THCS|THPT|MẦM NON))\s+(.+)$/iu', $schoolName, $matches)) {
+            $this->schoolPrefix = mb_strtoupper($matches[1], 'UTF-8');
+            $this->schoolDisplayName = mb_strtoupper($matches[2], 'UTF-8');
+        }
+
+        $acronymSource = $this->schoolDisplayName ?: $schoolName;
+        $words = preg_split('/\s+/u', trim($acronymSource), -1, PREG_SPLIT_NO_EMPTY);
+
+        $this->schoolAcronym = collect($words)
+            ->map(fn ($word) => mb_strtoupper(mb_substr($word, 0, 1, 'UTF-8'), 'UTF-8'))
+            ->implode('');
+
+        if ($this->schoolAcronym === '') {
+            $this->schoolAcronym = 'N/A';
+        }
     }
 
     // ======================

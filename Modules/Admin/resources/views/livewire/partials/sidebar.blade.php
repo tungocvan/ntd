@@ -10,12 +10,14 @@
         {{-- FULL TITLE --}}
         <span x-show="sidebarOpen" class="text-sm font-bold uppercase text-center leading-tight {{ $theme['text'] }}">
 
-            <span class="block tracking-wide">
-                TRƯỜNG TIỂU HỌC
-            </span>
+            @if($schoolPrefix)
+                <span class="block tracking-wide">
+                    {{ $schoolPrefix }}
+                </span>
+            @endif
 
             <span class="block tracking-widest text-indigo-500">
-                NGUYỄN THỊ ĐỊNH
+                {{ $schoolDisplayName }}
             </span>
 
         </span>
@@ -26,7 +28,7 @@
                text-indigo-100
                bg-gradient-to-br from-indigo-500 to-indigo-600
                px-2 py-1 rounded-lg shadow-md">
-            NTĐ
+            {{ $schoolAcronym }}
         </span>
 
     </div>
