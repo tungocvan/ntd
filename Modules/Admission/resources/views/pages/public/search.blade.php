@@ -16,7 +16,7 @@
                     {{-- TITLE --}}
                     <div>
                         <h1 class="text-2xl sm:text-3xl font-extrabold text-blue-900 tracking-tight">
-                            TRA CỨU THÔNG TIN NHẬP HỌC NĂM 2026-2007
+                            TRA CỨU THÔNG TIN NHẬP HỌC NĂM 2026-2027
                         </h1>
 
                         <p class="text-gray-600 mt-1 text-sm sm:text-base">
