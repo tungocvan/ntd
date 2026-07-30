@@ -113,11 +113,11 @@ return [
     */
     'principal' => env(
         'PRINCIPAL',
-        'Lê Văn A'
+        'Hoàng Thụy Bích Thủy'
     ),
     'school_name' => env(
         'SCHOOL_NAME',
-        'TRƯỜNG TIỂU HỌC NGUYỄN VĂN HỒNG'
+        'TRƯỜNG TIỂU HỌC NGUYỄN VĂN HƯỞNG'
     ),
     'school_year' => env(
         'SCHOOL_YEAR',
@@ -125,7 +125,7 @@ return [
     ),
     'school_managing_agency' => env(
         'SCHOOL_MANAGING_AGENCY',
-        'ỦY BAN NHÂN DÂN PHƯỜNG TÂN THUẬN'
+        'ỦY BAN NHÂN DÂN PHƯỜNG PHÚ THUẬN'
     ),
 
     'school_login_description' => env(

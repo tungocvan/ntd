@@ -2,13 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 use Modules\Admission\Http\Controllers\AdmissionController;
+use Modules\Admission\Http\Controllers\SchoolSettingController;
 
 Route::middleware(['web'])
     ->prefix('/admission')
     ->name('admission.')
     ->group(function () {
         Route::get('/search/{ma_dinh_danh?}/{password?}', [AdmissionController::class, 'search'])->name('search');
-         
+
     });
 
 
@@ -24,6 +25,8 @@ Route::middleware(['web', 'auth:admin'])
     ->name('admin.admission.')
     ->group(function () {
         Route::get('/', [AdmissionController::class, 'adminIndex'])->name('index');
+        Route::get('/settings', [SchoolSettingController::class, 'edit'])->name('settings.edit');
+        Route::put('/settings', [SchoolSettingController::class, 'update'])->name('settings.update');
         Route::get('/create', [AdmissionController::class, 'adminCreate'])->name('create');
         Route::get('/edit/{id}', [AdmissionController::class, 'adminEdit'])->name('edit');
         // Admin cũng có thể xuất PDF để lưu trữ hồ sơ
@@ -38,8 +41,8 @@ Route::middleware(['web', 'auth:admin'])
     ->prefix('/admission')
     ->name('admission.')
     ->group(function () {
-        Route::get('/register', [AdmissionController::class, 'index'])->name('register');       
-       
+        Route::get('/register', [AdmissionController::class, 'index'])->name('register');
+
         Route::get('/download-pdf/{id}', [AdmissionController::class, 'downloadPdf'])->name('download-pdf');
         Route::get('/download-word/{id}', [AdmissionController::class, 'downloadDocx'])->name('download-word');
         Route::get('/{id}/download/{type}', [AdmissionController::class, 'download'])
@@ -47,4 +50,3 @@ Route::middleware(['web', 'auth:admin'])
         Route::get('/{id}/receipt', [AdmissionController::class, 'receipt'])
             ->name('receipt');
     });
-

@@ -78,6 +78,14 @@
                 "can": "create_admission",
                 "is_active": true,
                 "children": []
+            },
+            {
+                "name": "Thiết lập Thông tin",
+                "url": "admin\/admission\/settings",
+                "icon": null,
+                "can": "create_admission",
+                "is_active": true,
+                "children": []
             }
         ]
     },
@@ -116,7 +124,7 @@
                 "name": "Thiết lập Biến",
                 "url": "\/admin\/settings",
                 "icon": null,
-                "can": "view_staff",
+                "can": "create_admission",
                 "is_active": true,
                 "children": []
             },

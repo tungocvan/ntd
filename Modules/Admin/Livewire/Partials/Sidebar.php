@@ -99,10 +99,13 @@ class Sidebar extends Component
     #[On('site-name-updated')]
     public function loadSchoolName(): void
     {
-        $schoolName = trim((string) Setting::getValue(
-            'site_name',
-            'TRƯỜNG TIỂU HỌC NGUYỄN THỊ ĐỊNH'
-        ));
+        $siteName = trim((string) Setting::getValue('site_name'));
+        $schoolName = $siteName !== ''
+            ? $siteName
+            : trim((string) config(
+                'app.school_name',
+                'TRƯỜNG TIỂU HỌC NGUYỄN VĂN HƯỞNG'
+            ));
 
         $this->titleSidebar = $schoolName;
         $this->schoolPrefix = '';
