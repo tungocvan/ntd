@@ -1,7 +1,7 @@
 <div class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md border border-gray-100 my-2">
 
     @php
-        $siteName = \Modules\Website\Models\Setting::getValue('site_name', 'TRƯỜNG TIỂU HỌC NGUYỄN THỊ ĐỊNH');
+        $siteName = \Modules\Website\Models\Setting::getValue('site_name', 'TRƯỜNG TIỂU HỌC ABC');
         $siteLogo = \Modules\Website\Models\Setting::getValue('site_logo');
     @endphp
 
@@ -10,7 +10,7 @@
 
         {{-- LOGO --}}
         <div class="flex justify-center mb-4">
-            <img src="{{ $siteLogo ? asset('storage/' . $siteLogo) : asset('storage/admission/img/logo-ntd.png') }}"
+            <img src="{{ $siteLogo ? asset('storage/' . $siteLogo) : asset('storage/admission/img/logo.png') }}"
                  class="w-32 h-32 object-contain"
                  alt="Logo {{ $siteName }}">
         </div>
@@ -94,7 +94,7 @@
     <a href="{{ route('google') }}"
        class="mt-5 flex items-center justify-center gap-2 w-full px-4 py-2 border border-gray-200 rounded-lg bg-white hover:bg-gray-50 transition">
 
-     
+
         <span class="text-sm font-medium text-gray-700">
             Đăng nhập bằng Google Workspace
         </span>
