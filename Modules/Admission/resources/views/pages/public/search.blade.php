@@ -10,7 +10,7 @@
                 <div class="flex items-center gap-4 mb-8 border-b pb-6">
 
                     {{-- LOGO --}}
-                    <img src="{{ asset('storage/admission/img/logo-ntd.png') }}" alt="Logo"
+                    <img src="{{ asset('storage/admission/img/logo-nvh.png') }}" alt="Logo"
                         class="w-16 h-16 object-contain rounded-xl border border-gray-200 shadow-sm">
 
                     {{-- TITLE --}}
@@ -24,7 +24,7 @@
                         </p>
                     </div>
                 </div>
-                  
+
                 {{-- FORM --}}
                 <livewire:admission.search :ma_dinh_danh="$ma_dinh_danh" :password="$password" />
 
