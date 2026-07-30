@@ -66,7 +66,7 @@
             {{-- HEADER --}}
             <div class="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 mb-4 md:mb-6 text-center md:text-left">
 
-                <img src="{{ asset('storage/admission/img/logo-ntd.png') }}"
+                <img src="{{ asset('storage/admission/img/logo-nvh.png') }}"
                      class="hidden md:block w-16 h-16 md:w-28 md:h-28 object-contain">
 
                 <div class="text-sm md:text-xl leading-tight">
