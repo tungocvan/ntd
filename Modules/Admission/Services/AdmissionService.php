@@ -248,6 +248,11 @@ class AdmissionService
         $data['TH'] = $app->loai_lop_dang_ky === 'Tích hợp' ? '☑' : '☐';
         $data['TATOAN'] = $app->loai_lop_dang_ky === 'Tăng cường TA + Toán và Khoa học' ? '☑' : '☐';
         $data['kn1'] = $app->loai_lop_dang_ky === 'Tăng cường TA + Toán và Khoa học' ? '☑' : '☐';
+        $data['SchoolName'] = config('app.school_name');
+        $data['SchoolNameUCase'] = mb_convert_case(mb_strtolower(config('app.school_name'), 'UTF-8'), MB_CASE_TITLE, "UTF-8");
+        $data['SchoolYear'] = config('app.school_year');
+        $data['Principal'] = config('app.principal');
+        $data['SchoolManagingAgency'] = config('app.school_managing_agency');
         // dd($data);
 
         $options = [
@@ -360,6 +365,10 @@ class AdmissionService
                 : ''
         );
         $template->setValue('MaHoSo', $app->mhs);
+        $template->setValue('SchoolName', config('app.school_name'));
+        $template->setValue('SchoolNameUCase', mb_convert_case(mb_strtolower(config('app.school_name'), 'UTF-8'), MB_CASE_TITLE, "UTF-8"));
+        $template->setValue('SchoolYear', config('app.school_year'));
+        $template->setValue('SchoolManagingAgency', config('app.school_managing_agency'));
 
         // ======================
         // INSERT QR IMAGE

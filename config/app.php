@@ -111,7 +111,18 @@ return [
     | School information
     |--------------------------------------------------------------------------
     */
-
+    'principal' => env(
+        'PRINCIPAL',
+        'Lê Văn A'
+    ),
+    'school_name' => env(
+        'SCHOOL_NAME',
+        'TRƯỜNG TIỂU HỌC NGUYỄN VĂN HỒNG'
+    ),
+    'school_year' => env(
+        'SCHOOL_YEAR',
+        '2026-2027'
+    ),
     'school_managing_agency' => env(
         'SCHOOL_MANAGING_AGENCY',
         'ỦY BAN NHÂN DÂN PHƯỜNG TÂN THUẬN'
