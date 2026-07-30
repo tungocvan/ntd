@@ -39,7 +39,7 @@ class AdmissionService
             $nextId = (AdmissionApplication::lockForUpdate()->max('id') ?? 0) + 1;
 
             $data['mhs'] = sprintf(
-                'NTD%s%04d',
+                'NVH%s%04d',
                 now()->year,
                 $nextId
             );
