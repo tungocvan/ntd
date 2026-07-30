@@ -106,6 +106,9 @@
                                     </label>
                                     <p class="mt-2 text-xs leading-5 text-gray-500">PNG, JPG, SVG. Khuyên dùng nền trong suốt.</p>
                                     <div wire:loading wire:target="new_logo" class="text-xs text-indigo-600 mt-1">Đang tải ảnh lên...</div>
+                                    @error('new_logo')
+                                        <p class="mt-2 text-xs font-medium text-red-600">{{ $message }}</p>
+                                    @enderror
                                 </div>
                             </div>
                         </div>

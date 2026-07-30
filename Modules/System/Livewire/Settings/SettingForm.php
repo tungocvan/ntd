@@ -6,6 +6,7 @@ use Livewire\Component;
 use Livewire\WithFileUploads;
 use Modules\System\Models\Setting;
 use Illuminate\Support\Str;
+use Illuminate\Validation\ValidationException;
 
 class SettingForm extends Component
 {
@@ -49,6 +50,82 @@ class SettingForm extends Component
     ];
 
     public $activeTab = 'general';
+
+    public function updatedNewLogo(): void
+    {
+        $this->validateLogo();
+    }
+
+    public function updatedNewFavicon(): void
+    {
+        $this->validateFavicon();
+    }
+
+    protected function validateLogo(): void
+    {
+        $this->validate([
+            'new_logo' => ['nullable', 'file', 'mimes:png,jpg,jpeg,svg', 'max:2048'],
+        ], [
+            'new_logo.file' => 'File logo tải lên không hợp lệ.',
+            'new_logo.mimes' => 'Logo phải có định dạng PNG, JPG, JPEG hoặc SVG.',
+            'new_logo.max' => 'Dung lượng logo không được vượt quá 2 MB.',
+        ]);
+    }
+
+    protected function validateFavicon(): void
+    {
+        $this->validate([
+            'new_favicon' => ['nullable', 'file', 'mimes:png,ico', 'max:512'],
+        ], [
+            'new_favicon.file' => 'Icon tải lên không hợp lệ.',
+            'new_favicon.mimes' => 'Icon phải có định dạng PNG hoặc ICO.',
+            'new_favicon.max' => 'Dung lượng icon không được vượt quá 512 KB.',
+        ]);
+
+        if (!$this->new_favicon) {
+            return;
+        }
+
+        $imageSize = @getimagesize($this->new_favicon->getRealPath());
+        $width = $imageSize[0] ?? null;
+        $height = $imageSize[1] ?? null;
+
+        if (!$width || !$height) {
+            throw ValidationException::withMessages([
+                'new_favicon' => 'Không thể đọc file icon. Vui lòng chọn file PNG hoặc ICO hợp lệ.',
+            ]);
+        }
+
+        if ($width !== $height || !in_array($width, [32, 64], true)) {
+            throw ValidationException::withMessages([
+                'new_favicon' => "Icon phải là ảnh vuông 32x32 hoặc 64x64 pixel (file hiện tại: {$width}x{$height}).",
+            ]);
+        }
+    }
+
+    /**
+     * Lưu file và báo lỗi trên form thay vì bỏ qua âm thầm khi VPS thiếu quyền ghi.
+     */
+    protected function storeUpload($file, string $directory, string $field): string
+    {
+        try {
+            $path = $file->store($directory, 'public');
+        } catch (\Throwable $exception) {
+            report($exception);
+
+            throw ValidationException::withMessages([
+                $field => 'Không thể lưu file trên máy chủ. Vui lòng kiểm tra quyền ghi thư mục storage.',
+            ]);
+        }
+
+        if (!is_string($path) || $path === '') {
+            throw ValidationException::withMessages([
+                $field => 'Không thể lưu file trên máy chủ. Vui lòng kiểm tra quyền ghi thư mục storage.',
+            ]);
+        }
+
+        return $path;
+    }
 
     /**
      * Khởi tạo dữ liệu
@@ -161,6 +238,9 @@ class SettingForm extends Component
      */
     public function save()
     {
+        $this->validateLogo();
+        $this->validateFavicon();
+
         // ------------------------------------
         // 1. LƯU SYSTEM SETTINGS
         // ------------------------------------
@@ -170,7 +250,7 @@ class SettingForm extends Component
 
         // Upload Logo
         if ($this->new_logo) {
-            $path = $this->new_logo->store('settings', 'public');
+            $path = $this->storeUpload($this->new_logo, 'settings', 'new_logo');
             Setting::setValue('site_logo', $path);
             $this->site_logo = $path;
             $this->new_logo = null;
@@ -178,7 +258,7 @@ class SettingForm extends Component
 
         // Upload Favicon
         if ($this->new_favicon) {
-            $path = $this->new_favicon->store('settings', 'public');
+            $path = $this->storeUpload($this->new_favicon, 'settings', 'new_favicon');
             Setting::setValue('site_favicon', $path);
             $this->site_favicon = $path;
             $this->new_favicon = null;
