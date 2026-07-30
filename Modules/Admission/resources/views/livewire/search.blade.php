@@ -71,10 +71,10 @@
 
                 <div class="text-sm md:text-xl leading-tight">
                     <p class="font-semibold tracking-wide">
-                        ỦY BAN NHÂN DÂN PHƯỜNG TÂN THUẬN
+                        ỦY BAN NHÂN DÂN PHƯỜNG PHÚ THUẬN
                     </p>
                     <p class="font-semibold tracking-wide">
-                        TRƯỜNG TIỂU HỌC NGUYỄN THỊ ĐỊNH
+                        TRƯỜNG TIỂU HỌC NGUYỄN VĂN HƯỞNG
                     </p>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                 </h2>
 
                 <h3 class="font-bold text-sm md:text-lg uppercase">
-                    TRƯỜNG TIỂU HỌC NGUYỄN THỊ ĐỊNH
+                    TRƯỜNG TIỂU HỌC NGUYỄN VĂN HƯỞNG
                 </h3>
 
                 <h1 class="text-xl md:text-3xl font-extrabold mt-2 md:mt-3 tracking-wide">
