@@ -77,7 +77,7 @@
                         {{ env('SCHOOL_MANAGING_AGENCY', 'ỦY BAN NHÂN DÂN PHƯỜNG') }}
                     </p>
                     <p class="font-semibold tracking-wide">
-                        {{ $siteName }}
+                        {{ $siteName ?: env('SCHOOL_NAME', 'TRƯỜNG TIỂU HỌC ABC') }}
                     </p>
                 </div>
             </div>
