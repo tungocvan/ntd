@@ -21,7 +21,7 @@
         </h1>
 
         <h2 class="text-base font-bold text-gray-900 mt-1 leading-snug">
-            {{ $siteName }}
+            {{ $siteName ?: env('SCHOOL_NAME', 'TRƯỜNG TIỂU HỌC ABC') }}
         </h2>
 
         <div class="mt-3 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
