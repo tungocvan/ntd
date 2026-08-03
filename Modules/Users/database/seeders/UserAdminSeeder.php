@@ -2,32 +2,30 @@
 
 namespace Modules\Users\database\Seeders;
 
-
-use Illuminate\Database\Seeder;
 use App\Models\User;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\Models\Role;
-use Spatie\Permission\PermissionRegistrar;
 
 class UserAdminSeeder extends Seeder
 {
+    /**
+     * Run the database seeds.
+     */
     public function run(): void
     {
-        app()[PermissionRegistrar::class]->forgetCachedPermissions();
-
-        $userAdmin = User::query()->updateOrCreate(
-            ['email' => 'tungocvan@gmail.com'],
+        $userAdmin = User::updateOrCreate(
+            [
+                'email' => 'tungocvan@gmail.com',
+            ],
             [
                 'name' => 'Từ Ngọc Vân',
-                'password' => bcrypt('123456'),
-                'account_type' => 'system',
-                'is_active' => true,
+                'password' => Hash::make('123456'),
             ]
         );
 
-        $role = Role::findByName('Super Admin', 'admin');
+        $role = Role::findByName('Super Admin');
 
         $userAdmin->assignRole($role);
-
-        app()[PermissionRegistrar::class]->forgetCachedPermissions();
     }
 }
